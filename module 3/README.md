@@ -1,0 +1,129 @@
+# Module 3: Object Identification
+
+## Overview
+
+This module covers four areas of computer vision:
+
+1. **Object detection** — locating objects with bounding boxes and class labels.
+2. **Segmentation** — identifying the pixels that belong to objects.
+3. **Multi-object tracking** — associating detected objects across video frames.
+4. **Anomaly detection** — identifying unusual samples or regions that may indicate defects.
+
+The practical work uses PyTorch, Torchvision, Ultralytics YOLO and Anomalib.
+
+## Day-by-day work
+
+| Day | Topic | Work |
+|---|---|---|
+| Day 1 | Object detection concepts and YOLO inference | Studied bounding boxes, IoU, precision, recall, mAP, anchor-based vs anchor-free detectors, and one-stage vs two-stage detectors. Ran pretrained YOLO on a sample image. |
+| Day 2 | YOLO training on a COCO subset | Prepared a train/validation split from COCO128, inspected YOLO-format labels, trained YOLO11n and evaluated detection mAP. |
+| Day 3 | Image segmentation | Compared semantic segmentation (U-Net) with instance segmentation (Mask R-CNN). Ran pretrained Mask R-CNN and inspected its masks. |
+| Day 4 | Multi-object tracking | Ran YOLO with ByteTrack on a short video and generated a video with tracked object IDs. |
+| Day 5 | Anomaly detection | Explored anomaly detection and PatchCore with Anomalib using a small synthetic MVTec-style dataset. |
+
+## Datasets and scope
+
+### Object detection
+
+- Dataset: COCO128, a small subset of COCO downloaded through Ultralytics.
+- Split: image-level 80/20 training and validation split created in the notebook.
+- Annotation format: YOLO text labels containing `class_id x_center y_center width height`, with normalized box coordinates.
+- Important: COCO128 is a small practice subset. Its validation mAP is a workflow-learning result, not a production benchmark.
+
+### Segmentation
+
+- A pretrained Mask R-CNN model from Torchvision is run on a sample COCO image.
+- The notebook visualizes predicted classes, boxes, confidence scores and instance masks.
+
+### Tracking
+
+- A pretrained YOLO detector is combined with the ByteTrack tracker.
+- The notebook processes a short sample traffic video and saves a tracked output video.
+- Track IDs should be visually checked across frames. This is a practical demo, not a formal tracking benchmark.
+
+### Anomaly detection
+
+- Anomalib PatchCore is used on a small synthetic MVTec-style dataset.
+- The training set contains normal samples; the test set contains normal and synthetic defective samples.
+- Important: these are generated practice images, not the official MVTec AD dataset. Do not report these results as official MVTec benchmark results.
+
+## Results
+
+Fill in the values from your actual notebook outputs. Do not estimate or invent metrics.
+
+### YOLO detection results
+
+| Metric | Result |
+|---|---:|
+| Model | YOLO11n |
+| Dataset | COCO128 subset |
+| Training epochs | 10 |
+| Validation mAP50 | **[enter result]** |
+| Validation mAP50-95 | **[enter result]** |
+| Validation mAP75 | **[enter result]** |
+
+### Segmentation
+
+- Model: Mask R-CNN ResNet50 FPN (pretrained)
+- Sample image: **[describe the sample image briefly]**
+- Objects/masks detected: **[enter what you observed]**
+
+### Tracking
+
+- Detector: YOLO11n
+- Tracker: ByteTrack
+- Input video: traffic sample video
+- Output video: **[enter saved filename/path]**
+- Tracking observation: **[did IDs remain consistent? mention any ID switches or missed tracks]**
+
+### Anomaly detection
+
+- Model: PatchCore via Anomalib
+- Dataset: synthetic MVTec-style practice dataset
+- Test observations: **[describe how normal and defective samples appeared in the anomaly maps]**
+- Metrics, if reported by your run: **[enter actual output or write “not recorded”]**
+
+## What I learned
+
+Complete this section after reviewing the outputs:
+
+- The most important detection metric for this experiment was **[explain mAP50 vs mAP50-95 based on your results]**.
+- The segmentation demo showed that **[describe how masks provide more detail than bounding boxes]**.
+- ByteTrack **[describe whether IDs stayed consistent in the sample video]**.
+- PatchCore **[describe whether the anomaly heatmaps highlighted the synthetic defects]**.
+- One limitation of this module's experiments was **[e.g. small dataset, synthetic defects, short video, or pretrained inference]**.
+
+## Repository structure
+
+Use the following structure inside your GitHub repository. Keep the notebook names consistent with the files you have downloaded.
+
+```text
+module 3/
+├── README.md
+├── day-1-object-detection-yolo-basics.ipynb
+├── day-2-yolo-training-coco-subset.ipynb
+├── day-3-image-segmentation-unet-mask-rcnn.ipynb
+├── day-4-multi-object-tracking-bytetrack.ipynb
+├── day-5-anomaly-detection-anomalib-patchcore.ipynb
+└── results/
+    ├── yolo_metrics.csv
+    ├── tracked_video.mp4
+    └── anomaly_demo/
+```
+
+Add the actual output files generated by your notebooks to `results/`. The exact folder names may differ depending on where you ran the notebooks; copy the generated files into this structure when preparing the repository.
+
+## Final checklist
+
+- [ ] Day 1: pretrained YOLO inference completed.
+- [ ] Day 2: YOLO trained and validation mAP recorded.
+- [ ] Day 2: several ground-truth annotations visually checked before training.
+- [ ] Day 3: Mask R-CNN masks visualized.
+- [ ] Day 4: tracked video generated and track IDs visually checked.
+- [ ] Day 5: PatchCore anomaly demo run and heatmaps inspected.
+- [ ] Actual results added to this README.
+- [ ] Notebooks and output artifacts organized in the `module 3/` folder.
+
+## Limitations
+
+The experiments in this module are learning demonstrations with small or sample datasets. COCO128 is not a large custom dataset, the segmentation and tracking tasks use pretrained models, and the anomaly dataset is synthetic. These choices are suitable for practising the workflows, but they should be clearly described when presenting the results.
