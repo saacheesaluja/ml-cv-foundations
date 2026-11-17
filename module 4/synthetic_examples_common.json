@@ -1,0 +1,37 @@
+{
+  "provider": "synthetic_examples",
+  "fields": {
+    "invoice_number": "NS-MULTI-01",
+    "customer": "Meridian Research Labs",
+    "date": "17/11/2026",
+    "grand_total": 5860.0
+  },
+  "line_items": [
+    {
+      "description": "Thermal paper rolls",
+      "quantity": 12,
+      "amount": 1020.0
+    },
+    {
+      "description": "Barcode labels",
+      "quantity": 8,
+      "amount": 1120.0
+    },
+    {
+      "description": "Storage folders",
+      "quantity": 25,
+      "amount": 800.0
+    },
+    {
+      "description": "Desk lamp LED",
+      "quantity": 4,
+      "amount": 2200.0
+    },
+    {
+      "description": "Packaging tape",
+      "quantity": 15,
+      "amount": 720.0
+    }
+  ],
+  "tables": []
+}
