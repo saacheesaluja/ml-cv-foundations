@@ -1,0 +1,89 @@
+{
+  "module": 5,
+  "day": 5,
+  "model": "openai/clip-vit-base-patch32",
+  "text_query": "Find a relaxing outdoor scene",
+  "text_to_image_results": [
+    {
+      "index": 0,
+      "filename": "mountain (1).png",
+      "similarity": 0.2486
+    },
+    {
+      "index": 2,
+      "filename": "Happy Golden Retriever in the Park-1 (3).png",
+      "similarity": 0.2368
+    },
+    {
+      "index": 1,
+      "filename": "coffee (1).png",
+      "similarity": 0.2059
+    }
+  ],
+  "image_to_text_image": "mountain (1).png",
+  "image_to_text_results": [
+    {
+      "description": "A photo of a landscape.",
+      "similarity": 0.24280568957328796
+    },
+    {
+      "description": "A photo of an animal.",
+      "similarity": 0.20546413958072662
+    },
+    {
+      "description": "A photo of a building.",
+      "similarity": 0.19948647916316986
+    },
+    {
+      "description": "A photo of a person.",
+      "similarity": 0.19876816868782043
+    },
+    {
+      "description": "A photo of a vehicle.",
+      "similarity": 0.18971917033195496
+    },
+    {
+      "description": "A document or printed page.",
+      "similarity": 0.1882394701242447
+    },
+    {
+      "description": "A photo of an electronic device.",
+      "similarity": 0.18203045427799225
+    },
+    {
+      "description": "A photo of food.",
+      "similarity": 0.17929695546627045
+    }
+  ],
+  "custom_descriptions": [
+    "A close-up photograph of an object.",
+    "A street scene with vehicles and buildings.",
+    "A receipt or invoice with printed text.",
+    "A natural landscape with trees and sky.",
+    "A person standing outdoors."
+  ],
+  "similarity_matrix": [
+    [
+      0.1733437478542328,
+      0.12930375337600708,
+      0.16646483540534973,
+      0.2189042866230011,
+      0.20486822724342346
+    ],
+    [
+      0.18648278713226318,
+      0.12381286174058914,
+      0.19428716599941254,
+      0.10376664251089096,
+      0.1440696120262146
+    ],
+    [
+      0.1958545297384262,
+      0.11931607127189636,
+      0.16205807030200958,
+      0.1653723120689392,
+      0.22051164507865906
+    ]
+  ],
+  "created_at": "2026-11-18T13:49:41"
+}
