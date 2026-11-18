@@ -1,0 +1,44 @@
+[
+  {
+    "image_id": 0,
+    "source_doc": "sample_multimodal_invoice.pdf",
+    "image_path": "day2_extracted_images/figure-1-1.jpg",
+    "caption": "a blue and white graphic with the words medium and large",
+    "embedding_index": 0
+  },
+  {
+    "image_id": 1,
+    "source_doc": "sample_multimodal_invoice.pdf",
+    "image_path": "day2_extracted_images/table-1-1.jpg",
+    "caption": "the table shows the different types of products that are available",
+    "embedding_index": 1
+  },
+  {
+    "image_id": 2,
+    "source_doc": "sample_multimodal_invoice.pdf",
+    "image_path": "day2_extracted_images/table-1-2.jpg",
+    "caption": "the table shows the total number of employees and the number of employees",
+    "embedding_index": 2
+  },
+  {
+    "image_id": 3,
+    "source_doc": "sample_multimodal_invoice.pdf",
+    "image_path": "day2_extracted_images/table-2-3.jpg",
+    "caption": "the table shows the different dates for each location",
+    "embedding_index": 3
+  },
+  {
+    "image_id": 4,
+    "source_doc": "sample_multimodal_invoice.pdf",
+    "image_path": "day2_extracted_images/table-2-4.jpg",
+    "caption": "table showing the different types of services",
+    "embedding_index": 4
+  },
+  {
+    "image_id": 5,
+    "source_doc": "sample_multimodal_invoice.pdf",
+    "image_path": "day2_extracted_images/table-2-5.jpg",
+    "caption": "a series of different types of lines in different colors",
+    "embedding_index": 5
+  }
+]

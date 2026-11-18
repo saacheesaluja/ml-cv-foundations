@@ -1,0 +1,380 @@
+[
+  {
+    "record_id": "text_0",
+    "modality": "text",
+    "content_type": "text",
+    "source_doc": "sample_multimodal_invoice.pdf",
+    "page": 1,
+    "text": "TAX INVOICE",
+    "image_path": null
+  },
+  {
+    "record_id": "text_1",
+    "modality": "text",
+    "content_type": "text",
+    "source_doc": "sample_multimodal_invoice.pdf",
+    "page": 1,
+    "text": "Original for recipient",
+    "image_path": null
+  },
+  {
+    "record_id": "text_2",
+    "modality": "text",
+    "content_type": "text",
+    "source_doc": "sample_multimodal_invoice.pdf",
+    "page": 1,
+    "text": "Supplier",
+    "image_path": null
+  },
+  {
+    "record_id": "text_3",
+    "modality": "text",
+    "content_type": "text",
+    "source_doc": "sample_multimodal_invoice.pdf",
+    "page": 1,
+    "text": "Meridian Research Labs Pvt. Ltd. Plot 18, Sector 44 Gurugram, Haryana 122003 GSTIN: 06AABCM1234F1Z5 Email: billing@meridianlabs.example",
+    "image_path": null
+  },
+  {
+    "record_id": "text_4",
+    "modality": "text",
+    "content_type": "text",
+    "source_doc": "sample_multimodal_invoice.pdf",
+    "page": 1,
+    "text": "Bill To",
+    "image_path": null
+  },
+  {
+    "record_id": "text_5",
+    "modality": "text",
+    "content_type": "text",
+    "source_doc": "sample_multimodal_invoice.pdf",
+    "page": 1,
+    "text": "Northstar Office Supplies Unit 402, Tech Park Jaipur, Rajasthan 302017 GSTIN: 08AACCN5678L1Z2 Attn: Accounts Payable",
+    "image_path": null
+  },
+  {
+    "record_id": "text_6",
+    "modality": "text",
+    "content_type": "table",
+    "source_doc": "sample_multimodal_invoice.pdf",
+    "page": 1,
+    "text": "Invoice No. MRL-2026-1184 Invoice Date 18 Nov 2026 PO Number NS-PO-7741 Due Date 03 Dec 2026 Place of Supply Rajasthan Currency INR (n)",
+    "image_path": null
+  },
+  {
+    "record_id": "text_7",
+    "modality": "text",
+    "content_type": "text",
+    "source_doc": "sample_multimodal_invoice.pdf",
+    "page": 1,
+    "text": "Items and Services",
+    "image_path": null
+  },
+  {
+    "record_id": "text_8",
+    "modality": "text",
+    "content_type": "table",
+    "source_doc": "sample_multimodal_invoice.pdf",
+    "page": 1,
+    "text": "# Description HSN/SAC Qty Unit Price (n) Amount (n) 1 Workstation computer — 32 GB RAM, 1 TB SSD 8471 2 68,500.00 1,37,000.00 2 27-inch IPS monitor 8528 3 18,200.00 54,600.00 3 Network switch, 24-port managed 8517 1 24,750.00 24,750.00 4 Installation and configuration services 9987 1 12,000.00 12,000.00 5 On-site support — quarterly package 9983 1 8,500.00 8,500.00 Subtotal n2,36,850.00 CGST (9%) n21,316.50",
+    "image_path": null
+  },
+  {
+    "record_id": "text_9",
+    "modality": "text",
+    "content_type": "text",
+    "source_doc": "sample_multimodal_invoice.pdf",
+    "page": 1,
+    "text": "SGST (9%)",
+    "image_path": null
+  },
+  {
+    "record_id": "text_10",
+    "modality": "text",
+    "content_type": "text",
+    "source_doc": "sample_multimodal_invoice.pdf",
+    "page": 1,
+    "text": "Round Off",
+    "image_path": null
+  },
+  {
+    "record_id": "text_11",
+    "modality": "text",
+    "content_type": "text",
+    "source_doc": "sample_multimodal_invoice.pdf",
+    "page": 1,
+    "text": "Grand Total",
+    "image_path": null
+  },
+  {
+    "record_id": "text_12",
+    "modality": "text",
+    "content_type": "text",
+    "source_doc": "sample_multimodal_invoice.pdf",
+    "page": 1,
+    "text": "Amount in words: Rupees Two Lakh Seventy-Nine Thousand Four Hundred Eighty-Three Only. Payment terms: Net 15 days from invoice date. Please quote invoice number MRL-2026-1184 in the payment reference. Bank details: Meridian Research Labs Pvt. Ltd. | A/C: 018204000771 | IFSC: HDFC0001842 | Bank: HDFC Bank, Gurugram",
+    "image_path": null
+  },
+  {
+    "record_id": "text_13",
+    "modality": "text",
+    "content_type": "text",
+    "source_doc": "sample_multimodal_invoice.pdf",
+    "page": 1,
+    "text": "Notes: Goods supplied are covered by the manufacturer's standard warranty. Services are deemed accepted after written confirmation by the customer.",
+    "image_path": null
+  },
+  {
+    "record_id": "text_14",
+    "modality": "text",
+    "content_type": "text",
+    "source_doc": "sample_multimodal_invoice.pdf",
+    "page": 1,
+    "text": "Authorised Signatory",
+    "image_path": null
+  },
+  {
+    "record_id": "text_15",
+    "modality": "text",
+    "content_type": "text",
+    "source_doc": "sample_multimodal_invoice.pdf",
+    "page": 1,
+    "text": "Synthetic sample document — for notebook testing",
+    "image_path": null
+  },
+  {
+    "record_id": "text_16",
+    "modality": "text",
+    "content_type": "text",
+    "source_doc": "sample_multimodal_invoice.pdf",
+    "page": 1,
+    "text": "Page 1",
+    "image_path": null
+  },
+  {
+    "record_id": "text_17",
+    "modality": "text",
+    "content_type": "text",
+    "source_doc": "sample_multimodal_invoice.pdf",
+    "page": 2,
+    "text": "Service and Delivery Details",
+    "image_path": null
+  },
+  {
+    "record_id": "text_18",
+    "modality": "text",
+    "content_type": "text",
+    "source_doc": "sample_multimodal_invoice.pdf",
+    "page": 2,
+    "text": "Supporting schedule for invoice MRL-2026-1184",
+    "image_path": null
+  },
+  {
+    "record_id": "text_19",
+    "modality": "text",
+    "content_type": "text",
+    "source_doc": "sample_multimodal_invoice.pdf",
+    "page": 2,
+    "text": "Delivery Schedule",
+    "image_path": null
+  },
+  {
+    "record_id": "text_20",
+    "modality": "text",
+    "content_type": "table",
+    "source_doc": "sample_multimodal_invoice.pdf",
+    "page": 2,
+    "text": "Delivery Ref. Item Delivery Date Location Status DLV-8812 Workstations (2 units) 17 Nov 2026 Jaipur office Delivered DLV-8813 Monitors (3 units) 17 Nov 2026 Jaipur office Delivered DLV-8814 24-port network switch 18 Nov 2026 Jaipur office Delivered",
+    "image_path": null
+  },
+  {
+    "record_id": "text_21",
+    "modality": "text",
+    "content_type": "text",
+    "source_doc": "sample_multimodal_invoice.pdf",
+    "page": 2,
+    "text": "Service Summary",
+    "image_path": null
+  },
+  {
+    "record_id": "text_22",
+    "modality": "text",
+    "content_type": "table",
+    "source_doc": "sample_multimodal_invoice.pdf",
+    "page": 2,
+    "text": "Service Work performed Hours Completion Installation Unpacking, hardware checks, workstation setup and OS configuration. 6 18 Nov 2026 Network setup Switch configuration, VLAN assignment and connectivity testing. 3 18 Nov 2026 User handover Basic user orientation and handover of asset register. 2 18 Nov 2026",
+    "image_path": null
+  },
+  {
+    "record_id": "text_23",
+    "modality": "text",
+    "content_type": "text",
+    "source_doc": "sample_multimodal_invoice.pdf",
+    "page": 2,
+    "text": "Deployment Overview",
+    "image_path": null
+  },
+  {
+    "record_id": "text_24",
+    "modality": "text",
+    "content_type": "table",
+    "source_doc": "sample_multimodal_invoice.pdf",
+    "page": 2,
+    "text": "Workstations Managed Switch Office Network 2 units 24 ports LAN + Internet",
+    "image_path": null
+  },
+  {
+    "record_id": "text_25",
+    "modality": "text",
+    "content_type": "text",
+    "source_doc": "sample_multimodal_invoice.pdf",
+    "page": 2,
+    "text": "The workstations connect to the managed switch, which provides access to the office network. The diagram is illustrative and is included as a visual element for document parsing practice.",
+    "image_path": null
+  },
+  {
+    "record_id": "text_26",
+    "modality": "text",
+    "content_type": "text",
+    "source_doc": "sample_multimodal_invoice.pdf",
+    "page": 2,
+    "text": "Document Control",
+    "image_path": null
+  },
+  {
+    "record_id": "text_27",
+    "modality": "text",
+    "content_type": "text",
+    "source_doc": "sample_multimodal_invoice.pdf",
+    "page": 2,
+    "text": "Prepared by: Finance Operations | Reviewed by: Procurement Desk | Revision: 1.0 | Reference: MRL-2026-1184 This is a synthetic sample document created for testing document ingestion and layout extraction. All entities, addresses, tax IDs and bank details are fictional.",
+    "image_path": null
+  },
+  {
+    "record_id": "text_28",
+    "modality": "text",
+    "content_type": "text",
+    "source_doc": "sample_multimodal_invoice.pdf",
+    "page": 2,
+    "text": "Synthetic sample document — for notebook testing",
+    "image_path": null
+  },
+  {
+    "record_id": "text_29",
+    "modality": "text",
+    "content_type": "text",
+    "source_doc": "sample_multimodal_invoice.pdf",
+    "page": 2,
+    "text": "Page 2",
+    "image_path": null
+  },
+  {
+    "record_id": "caption_0",
+    "modality": "caption",
+    "content_type": "image_caption",
+    "source_doc": "sample_multimodal_invoice.pdf",
+    "page": null,
+    "text": "a blue and white graphic with the words medium and large",
+    "image_path": null
+  },
+  {
+    "record_id": "caption_1",
+    "modality": "caption",
+    "content_type": "image_caption",
+    "source_doc": "sample_multimodal_invoice.pdf",
+    "page": null,
+    "text": "the table shows the different types of products that are available",
+    "image_path": null
+  },
+  {
+    "record_id": "caption_2",
+    "modality": "caption",
+    "content_type": "image_caption",
+    "source_doc": "sample_multimodal_invoice.pdf",
+    "page": null,
+    "text": "the table shows the total number of employees and the number of employees",
+    "image_path": null
+  },
+  {
+    "record_id": "caption_3",
+    "modality": "caption",
+    "content_type": "image_caption",
+    "source_doc": "sample_multimodal_invoice.pdf",
+    "page": null,
+    "text": "the table shows the different dates for each location",
+    "image_path": null
+  },
+  {
+    "record_id": "caption_4",
+    "modality": "caption",
+    "content_type": "image_caption",
+    "source_doc": "sample_multimodal_invoice.pdf",
+    "page": null,
+    "text": "table showing the different types of services",
+    "image_path": null
+  },
+  {
+    "record_id": "caption_5",
+    "modality": "caption",
+    "content_type": "image_caption",
+    "source_doc": "sample_multimodal_invoice.pdf",
+    "page": null,
+    "text": "a series of different types of lines in different colors",
+    "image_path": null
+  },
+  {
+    "record_id": "image_0",
+    "modality": "image",
+    "content_type": "image",
+    "source_doc": "sample_multimodal_invoice.pdf",
+    "page": null,
+    "text": "a blue and white graphic with the words medium and large",
+    "image_path": null
+  },
+  {
+    "record_id": "image_1",
+    "modality": "image",
+    "content_type": "image",
+    "source_doc": "sample_multimodal_invoice.pdf",
+    "page": null,
+    "text": "the table shows the different types of products that are available",
+    "image_path": null
+  },
+  {
+    "record_id": "image_2",
+    "modality": "image",
+    "content_type": "image",
+    "source_doc": "sample_multimodal_invoice.pdf",
+    "page": null,
+    "text": "the table shows the total number of employees and the number of employees",
+    "image_path": null
+  },
+  {
+    "record_id": "image_3",
+    "modality": "image",
+    "content_type": "image",
+    "source_doc": "sample_multimodal_invoice.pdf",
+    "page": null,
+    "text": "the table shows the different dates for each location",
+    "image_path": null
+  },
+  {
+    "record_id": "image_4",
+    "modality": "image",
+    "content_type": "image",
+    "source_doc": "sample_multimodal_invoice.pdf",
+    "page": null,
+    "text": "table showing the different types of services",
+    "image_path": null
+  },
+  {
+    "record_id": "image_5",
+    "modality": "image",
+    "content_type": "image",
+    "source_doc": "sample_multimodal_invoice.pdf",
+    "page": null,
+    "text": "a series of different types of lines in different colors",
+    "image_path": null
+  }
+]
