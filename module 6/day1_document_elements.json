@@ -1,0 +1,497 @@
+{
+  "source_doc": "sample_multimodal_invoice.pdf",
+  "page_count": 2,
+  "element_count": 35,
+  "elements": [
+    {
+      "element_id": 0,
+      "source_doc": "sample_multimodal_invoice.pdf",
+      "page": 1,
+      "type": "image",
+      "text": "MERIDIAN RESEARCH LABS",
+      "bbox": {
+        "x1": 290.9777013888889,
+        "y1": 264.2224375000006,
+        "x2": 1186.6471458333333,
+        "y2": 526.0334722222225
+      },
+      "element_category": "Image"
+    },
+    {
+      "element_id": 1,
+      "source_doc": "sample_multimodal_invoice.pdf",
+      "page": 1,
+      "type": "title",
+      "text": "TAX INVOICE",
+      "bbox": {
+        "x1": 2282.110107421875,
+        "y1": 346.85714583333396,
+        "x2": 2602.723326388889,
+        "y2": 395.6396789550781
+      },
+      "element_category": "Title"
+    },
+    {
+      "element_id": 2,
+      "source_doc": "sample_multimodal_invoice.pdf",
+      "page": 1,
+      "type": "narrativetext",
+      "text": "Original for recipient",
+      "bbox": {
+        "x1": 2207.908447265625,
+        "y1": 409.0453402777784,
+        "x2": 2604.210205078125,
+        "y2": 453.3373107910156
+      },
+      "element_category": "NarrativeText"
+    },
+    {
+      "element_id": 3,
+      "source_doc": "sample_multimodal_invoice.pdf",
+      "page": 1,
+      "type": "uncategorizedtext",
+      "text": "Supplier",
+      "bbox": {
+        "x1": 307.0,
+        "y1": 651.0,
+        "x2": 499.0,
+        "y2": 705.0
+      },
+      "element_category": "UncategorizedText"
+    },
+    {
+      "element_id": 4,
+      "source_doc": "sample_multimodal_invoice.pdf",
+      "page": 1,
+      "type": "title",
+      "text": "Supplier",
+      "bbox": {
+        "x1": 305.5610347222222,
+        "y1": 652.7626388888895,
+        "x2": 500.0540902777778,
+        "y2": 704.6510009765625
+      },
+      "element_category": "Title"
+    },
+    {
+      "element_id": 5,
+      "source_doc": "sample_multimodal_invoice.pdf",
+      "page": 1,
+      "type": "narrativetext",
+      "text": "Meridian Research Labs Pvt. Ltd. Plot 18, Sector 44 Gurugram, Haryana 122003 GSTIN: 06AABCM1234F1Z5 Email: billing@meridianlabs.example",
+      "bbox": {
+        "x1": 299.601318359375,
+        "y1": 691.3262939453125,
+        "x2": 1100.4499236111112,
+        "y2": 998.7252807617188
+      },
+      "element_category": "NarrativeText"
+    },
+    {
+      "element_id": 6,
+      "source_doc": "sample_multimodal_invoice.pdf",
+      "page": 1,
+      "type": "title",
+      "text": "Bill To",
+      "bbox": {
+        "x1": 1490.600270833333,
+        "y1": 652.7626388888895,
+        "x2": 1642.552001953125,
+        "y2": 701.8524169921875
+      },
+      "element_category": "Title"
+    },
+    {
+      "element_id": 7,
+      "source_doc": "sample_multimodal_invoice.pdf",
+      "page": 1,
+      "type": "narrativetext",
+      "text": "Northstar Office Supplies Unit 402, Tech Park Jaipur, Rajasthan 302017 GSTIN: 08AACCN5678L1Z2 Attn: Accounts Payable",
+      "bbox": {
+        "x1": 1480.69482421875,
+        "y1": 709.2332153320312,
+        "x2": 2109.2738819444444,
+        "y2": 994.113037109375
+      },
+      "element_category": "NarrativeText"
+    },
+    {
+      "element_id": 8,
+      "source_doc": "sample_multimodal_invoice.pdf",
+      "page": 1,
+      "type": "table",
+      "text": "Invoice No. MRL-2026-1184 Invoice Date 18 Nov 2026 PO Number NS-PO-7741 Due Date 03 Dec 2026 Place of Supply Rajasthan Currency INR (n)",
+      "bbox": {
+        "x1": 280.1124267578125,
+        "y1": 1085.427001953125,
+        "x2": 2589.553955078125,
+        "y2": 1329.4261474609375
+      },
+      "element_category": "Table"
+    },
+    {
+      "element_id": 9,
+      "source_doc": "sample_multimodal_invoice.pdf",
+      "page": 1,
+      "type": "title",
+      "text": "Items and Services",
+      "bbox": {
+        "x1": 271.5218200683594,
+        "y1": 1435.65673828125,
+        "x2": 851.8717651367188,
+        "y2": 1503.92822265625
+      },
+      "element_category": "Title"
+    },
+    {
+      "element_id": 10,
+      "source_doc": "sample_multimodal_invoice.pdf",
+      "page": 1,
+      "type": "table",
+      "text": "# Description HSN/SAC Qty Unit Price (n) Amount (n) 1 Workstation computer — 32 GB RAM, 1 TB SSD 8471 2 68,500.00 1,37,000.00 2 27-inch IPS monitor 8528 3 18,200.00 54,600.00 3 Network switch, 24-port managed 8517 1 24,750.00 24,750.00 4 Installation and configuration services 9987 1 12,000.00 12,000.00 5 On-site support — quarterly package 9983 1 8,500.00 8,500.00 Subtotal n2,36,850.00 CGST (9%) n21,316.50",
+      "bbox": {
+        "x1": 275.2420959472656,
+        "y1": 1534.59326171875,
+        "x2": 2637.365234375,
+        "y2": 2547.167724609375
+      },
+      "element_category": "Table"
+    },
+    {
+      "element_id": 11,
+      "source_doc": "sample_multimodal_invoice.pdf",
+      "page": 1,
+      "type": "narrativetext",
+      "text": "SGST (9%)",
+      "bbox": {
+        "x1": 275.5905347222222,
+        "y1": 2524.2451171875,
+        "x2": 505.0964050292969,
+        "y2": 2574.33984375
+      },
+      "element_category": "NarrativeText"
+    },
+    {
+      "element_id": 12,
+      "source_doc": "sample_multimodal_invoice.pdf",
+      "page": 1,
+      "type": "uncategorizedtext",
+      "text": "n21,316.50",
+      "bbox": {
+        "x1": 2359.442409722222,
+        "y1": 2519.089027777778,
+        "x2": 2584.404909722222,
+        "y2": 2571.8952777777777
+      },
+      "element_category": "UncategorizedText"
+    },
+    {
+      "element_id": 13,
+      "source_doc": "sample_multimodal_invoice.pdf",
+      "page": 1,
+      "type": "narrativetext",
+      "text": "Round Off",
+      "bbox": {
+        "x1": 274.43157958984375,
+        "y1": 2614.17138671875,
+        "x2": 475.00303472222214,
+        "y2": 2662.07568359375
+      },
+      "element_category": "NarrativeText"
+    },
+    {
+      "element_id": 14,
+      "source_doc": "sample_multimodal_invoice.pdf",
+      "page": 1,
+      "type": "uncategorizedtext",
+      "text": "n0.00",
+      "bbox": {
+        "x1": 2468.904909722222,
+        "y1": 2606.589027777778,
+        "x2": 2584.404909722222,
+        "y2": 2659.3952777777777
+      },
+      "element_category": "UncategorizedText"
+    },
+    {
+      "element_id": 15,
+      "source_doc": "sample_multimodal_invoice.pdf",
+      "page": 1,
+      "type": "title",
+      "text": "Grand Total",
+      "bbox": {
+        "x1": 272.461669921875,
+        "y1": 2703.1452777777777,
+        "x2": 528.1859130859375,
+        "y2": 2749.349609375
+      },
+      "element_category": "Title"
+    },
+    {
+      "element_id": 16,
+      "source_doc": "sample_multimodal_invoice.pdf",
+      "page": 1,
+      "type": "uncategorizedtext",
+      "text": "n2,79,483.00",
+      "bbox": {
+        "x1": 2322.954909722222,
+        "y1": 2694.089027777778,
+        "x2": 2584.404909722222,
+        "y2": 2746.8952777777777
+      },
+      "element_category": "UncategorizedText"
+    },
+    {
+      "element_id": 17,
+      "source_doc": "sample_multimodal_invoice.pdf",
+      "page": 1,
+      "type": "narrativetext",
+      "text": "Amount in words: Rupees Two Lakh Seventy-Nine Thousand Four Hundred Eighty-Three Only. Payment terms: Net 15 days from invoice date. Please quote invoice number MRL-2026-1184 in the payment reference. Bank details: Meridian Research Labs Pvt. Ltd. | A/C: 018204000771 | IFSC: HDFC0001842 | Bank: HDFC Bank, Gurugram",
+      "bbox": {
+        "x1": 274.94140625,
+        "y1": 2815.9570833333332,
+        "x2": 2448.083984375,
+        "y2": 2967.17919921875
+      },
+      "element_category": "NarrativeText"
+    },
+    {
+      "element_id": 18,
+      "source_doc": "sample_multimodal_invoice.pdf",
+      "page": 1,
+      "type": "narrativetext",
+      "text": "Notes: Goods supplied are covered by the manufacturer's standard warranty. Services are deemed accepted after written confirmation by the customer.",
+      "bbox": {
+        "x1": 277.19815277777775,
+        "y1": 3018.11125,
+        "x2": 2599.7783203125,
+        "y2": 3110.472361111111
+      },
+      "element_category": "NarrativeText"
+    },
+    {
+      "element_id": 19,
+      "source_doc": "sample_multimodal_invoice.pdf",
+      "page": 1,
+      "type": "narrativetext",
+      "text": "Authorised Signatory",
+      "bbox": {
+        "x1": 2165.294055555555,
+        "y1": 3185.4015277777776,
+        "x2": 2616.502388888889,
+        "y2": 3235.514404296875
+      },
+      "element_category": "NarrativeText"
+    },
+    {
+      "element_id": 20,
+      "source_doc": "sample_multimodal_invoice.pdf",
+      "page": 1,
+      "type": "narrativetext",
+      "text": "Synthetic sample document — for notebook testing",
+      "bbox": {
+        "x1": 245.1265869140625,
+        "y1": 3923.885680555555,
+        "x2": 1135.739501953125,
+        "y2": 3964.066650390625
+      },
+      "element_category": "NarrativeText"
+    },
+    {
+      "element_id": 21,
+      "source_doc": "sample_multimodal_invoice.pdf",
+      "page": 1,
+      "type": "narrativetext",
+      "text": "Page 1",
+      "bbox": {
+        "x1": 2519.284423828125,
+        "y1": 3923.665771484375,
+        "x2": 2648.29443359375,
+        "y2": 3964.550537109375
+      },
+      "element_category": "NarrativeText"
+    },
+    {
+      "element_id": 22,
+      "source_doc": "sample_multimodal_invoice.pdf",
+      "page": 2,
+      "type": "title",
+      "text": "Service and Delivery Details",
+      "bbox": {
+        "x1": 855.4510498046875,
+        "y1": 267.7519444444447,
+        "x2": 2035.8216552734375,
+        "y2": 355.6089782714844
+      },
+      "element_category": "Title"
+    },
+    {
+      "element_id": 23,
+      "source_doc": "sample_multimodal_invoice.pdf",
+      "page": 2,
+      "type": "narrativetext",
+      "text": "Supporting schedule for invoice MRL-2026-1184",
+      "bbox": {
+        "x1": 272.67108154296875,
+        "y1": 392.61297607421875,
+        "x2": 1116.2279052734375,
+        "y2": 434.23895263671875
+      },
+      "element_category": "NarrativeText"
+    },
+    {
+      "element_id": 24,
+      "source_doc": "sample_multimodal_invoice.pdf",
+      "page": 2,
+      "type": "title",
+      "text": "Delivery Schedule",
+      "bbox": {
+        "x1": 277.19815277777775,
+        "y1": 537.9617919921875,
+        "x2": 826.0634765625,
+        "y2": 607.0654296875
+      },
+      "element_category": "Title"
+    },
+    {
+      "element_id": 25,
+      "source_doc": "sample_multimodal_invoice.pdf",
+      "page": 2,
+      "type": "table",
+      "text": "Delivery Ref. Item Delivery Date Location Status DLV-8812 Workstations (2 units) 17 Nov 2026 Jaipur office Delivered DLV-8813 Monitors (3 units) 17 Nov 2026 Jaipur office Delivered DLV-8814 24-port network switch 18 Nov 2026 Jaipur office Delivered",
+      "bbox": {
+        "x1": 271.9447021484375,
+        "y1": 635.822509765625,
+        "x2": 2619.7255859375,
+        "y2": 989.7010498046875
+      },
+      "element_category": "Table"
+    },
+    {
+      "element_id": 26,
+      "source_doc": "sample_multimodal_invoice.pdf",
+      "page": 2,
+      "type": "title",
+      "text": "Service Summary",
+      "bbox": {
+        "x1": 277.19815277777775,
+        "y1": 1093.9706944444447,
+        "x2": 809.6144409179688,
+        "y2": 1157.97998046875
+      },
+      "element_category": "Title"
+    },
+    {
+      "element_id": 27,
+      "source_doc": "sample_multimodal_invoice.pdf",
+      "page": 2,
+      "type": "table",
+      "text": "Service Work performed Hours Completion Installation Unpacking, hardware checks, workstation setup and OS configuration. 6 18 Nov 2026 Network setup Switch configuration, VLAN assignment and connectivity testing. 3 18 Nov 2026 User handover Basic user orientation and handover of asset register. 2 18 Nov 2026",
+      "bbox": {
+        "x1": 264.01556396484375,
+        "y1": 1188.4940185546875,
+        "x2": 2579.520751953125,
+        "y2": 1543.4443359375
+      },
+      "element_category": "Table"
+    },
+    {
+      "element_id": 28,
+      "source_doc": "sample_multimodal_invoice.pdf",
+      "page": 2,
+      "type": "title",
+      "text": "Deployment Overview",
+      "bbox": {
+        "x1": 277.19815277777775,
+        "y1": 1648.1373611111112,
+        "x2": 937.4537083333333,
+        "y2": 1713.1007080078125
+      },
+      "element_category": "Title"
+    },
+    {
+      "element_id": 29,
+      "source_doc": "sample_multimodal_invoice.pdf",
+      "page": 2,
+      "type": "table",
+      "text": "Workstations Managed Switch Office Network 2 units 24 ports LAN + Internet",
+      "bbox": {
+        "x1": 420.9577941894531,
+        "y1": 1750.4454345703125,
+        "x2": 2501.5576171875,
+        "y2": 1870.3514404296875
+      },
+      "element_category": "Table"
+    },
+    {
+      "element_id": 30,
+      "source_doc": "sample_multimodal_invoice.pdf",
+      "page": 2,
+      "type": "narrativetext",
+      "text": "The workstations connect to the managed switch, which provides access to the office network. The diagram is illustrative and is included as a visual element for document parsing practice.",
+      "bbox": {
+        "x1": 277.19815277777775,
+        "y1": 1934.772777777778,
+        "x2": 2628.715576171875,
+        "y2": 2027.133888888889
+      },
+      "element_category": "NarrativeText"
+    },
+    {
+      "element_id": 31,
+      "source_doc": "sample_multimodal_invoice.pdf",
+      "page": 2,
+      "type": "title",
+      "text": "Document Control",
+      "bbox": {
+        "x1": 277.19815277777775,
+        "y1": 2143.178955078125,
+        "x2": 836.1357421875,
+        "y2": 2208.134765625
+      },
+      "element_category": "Title"
+    },
+    {
+      "element_id": 32,
+      "source_doc": "sample_multimodal_invoice.pdf",
+      "page": 2,
+      "type": "narrativetext",
+      "text": "Prepared by: Finance Operations | Reviewed by: Procurement Desk | Revision: 1.0 | Reference: MRL-2026-1184 This is a synthetic sample document created for testing document ingestion and layout extraction. All entities, addresses, tax IDs and bank details are fictional.",
+      "bbox": {
+        "x1": 277.19815277777775,
+        "y1": 2245.883888888889,
+        "x2": 2625.57568359375,
+        "y2": 2383.695556640625
+      },
+      "element_category": "NarrativeText"
+    },
+    {
+      "element_id": 33,
+      "source_doc": "sample_multimodal_invoice.pdf",
+      "page": 2,
+      "type": "narrativetext",
+      "text": "Synthetic sample document — for notebook testing",
+      "bbox": {
+        "x1": 244.6519012451172,
+        "y1": 3923.885680555555,
+        "x2": 1136.5357666015625,
+        "y2": 3964.111572265625
+      },
+      "element_category": "NarrativeText"
+    },
+    {
+      "element_id": 34,
+      "source_doc": "sample_multimodal_invoice.pdf",
+      "page": 2,
+      "type": "narrativetext",
+      "text": "Page 2",
+      "bbox": {
+        "x1": 2519.157470703125,
+        "y1": 3923.753662109375,
+        "x2": 2647.932861328125,
+        "y2": 3964.66064453125
+      },
+      "element_category": "NarrativeText"
+    }
+  ]
+}
