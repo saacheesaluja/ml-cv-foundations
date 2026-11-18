@@ -1,0 +1,33 @@
+{
+  "image_filename": "module5_day2_sample_invoice (2).png",
+  "vlm_model": "Qwen/Qwen3-VL-4B-Instruct",
+  "vlm_answers": [
+    {
+      "question": "What is the invoice number? If it is not clearly readable, say 'not readable'.",
+      "answer": "NS-2026-1048"
+    },
+    {
+      "question": "What is the invoice date? If it is not clearly readable, say 'not readable'.",
+      "answer": "14 November 2026"
+    },
+    {
+      "question": "What is the supplier or company name?",
+      "answer": "The supplier or company name is **NORTHSTAR OFFICE SUPPLIES**."
+    },
+    {
+      "question": "What is the customer name?",
+      "answer": "The customer name is **Meridian Research Labs**."
+    },
+    {
+      "question": "What is the grand total? Do not confuse it with subtotal or tax. If unclear, say 'not readable'.",
+      "answer": "$9,086.00"
+    }
+  ],
+  "line_item_question": "List the visible invoice line items with their description, quantity, and amount. If a value is unclear, mark it as unclear rather than guessing.",
+  "line_item_answer": "Here are the visible invoice line items with their description, quantity, and amount:\n\n- **Description**: A4 copier paper (ream)  \n  **Quantity**: 10  \n  **Amount**: ₹2,850.00  \n\n- **Description**: Black toner cartridge  \n  **Quantity**: 2  \n  **Amount**: ₹2,300.00  \n\n- **Description**: Gel pen set (120 pcs)  \n  **Quantity**: 5  \n  **Amount**: ₹9,600.00  \n\n- **Description**: Desk organizer  \n  **Quantity**: 3  \n  **Amount**: ₹1,350.00  \n\nNote: The \"Unit Price\" column is not explicitly listed for each item in the table, but the \"Amount\" column is clearly visible and matches the quantity and description. The \"Unit Price\" is not required to be listed for the answer as per the request.",
+  "tesseract_ocr_text": "NORTHSTAR OFFICE SUPPLIES\n‘TAX INVOICE\n",
+  "managed_service_result": null,
+  "managed_service_status": "not available / not run",
+  "reference_values": {},
+  "created_at": "2026-11-18T11:37:52"
+}
