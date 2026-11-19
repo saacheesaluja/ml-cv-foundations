@@ -1,0 +1,90 @@
+{
+  "question": "What equipment and services are listed in the retrieved invoice, and what is the invoice total?",
+  "retrieval_mode": "text_plus_image",
+  "model": "Qwen/Qwen3-VL-4B-Instruct",
+  "answer": "The retrieved invoice lists \"Items and Services\" and \"Service Summary\" as sections, but the specific equipment and services are not detailed in the provided context. The \"Grand Total\" is also not specified in the retrieved context. Therefore, the equipment and services listed and the invoice total are not available in the retrieved context.",
+  "used_source_ids": [],
+  "citation_id_check": "REVIEW",
+  "sources": [
+    {
+      "source_id": "S1",
+      "modality": "text",
+      "content_type": "text",
+      "source_doc": "sample_multimodal_invoice.pdf",
+      "page": 2,
+      "text": "Document Control",
+      "similarity": 0.7357,
+      "image_path": null
+    },
+    {
+      "source_id": "S2",
+      "modality": "text",
+      "content_type": "text",
+      "source_doc": "sample_multimodal_invoice.pdf",
+      "page": 1,
+      "text": "Notes: Goods supplied are covered by the manufacturer's standard warranty. Services are deemed accepted after written confirmation by the customer.",
+      "similarity": 0.728,
+      "image_path": null
+    },
+    {
+      "source_id": "S3",
+      "modality": "text",
+      "content_type": "text",
+      "source_doc": "sample_multimodal_invoice.pdf",
+      "page": 1,
+      "text": "Original for recipient",
+      "similarity": 0.7192,
+      "image_path": null
+    },
+    {
+      "source_id": "S4",
+      "modality": "text",
+      "content_type": "text",
+      "source_doc": "sample_multimodal_invoice.pdf",
+      "page": 1,
+      "text": "Authorised Signatory",
+      "similarity": 0.7146,
+      "image_path": null
+    },
+    {
+      "source_id": "S5",
+      "modality": "text",
+      "content_type": "text",
+      "source_doc": "sample_multimodal_invoice.pdf",
+      "page": 2,
+      "text": "Service Summary",
+      "similarity": 0.7117,
+      "image_path": null
+    },
+    {
+      "source_id": "S6",
+      "modality": "text",
+      "content_type": "text",
+      "source_doc": "sample_multimodal_invoice.pdf",
+      "page": 1,
+      "text": "Grand Total",
+      "similarity": 0.7105,
+      "image_path": null
+    },
+    {
+      "source_id": "S7",
+      "modality": "text",
+      "content_type": "text",
+      "source_doc": "sample_multimodal_invoice.pdf",
+      "page": 1,
+      "text": "Items and Services",
+      "similarity": 0.7101,
+      "image_path": null
+    },
+    {
+      "source_id": "S8",
+      "modality": "text",
+      "content_type": "text",
+      "source_doc": "sample_multimodal_invoice.pdf",
+      "page": 1,
+      "text": "Bill To",
+      "similarity": 0.7084,
+      "image_path": null
+    }
+  ]
+}

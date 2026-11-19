@@ -1,0 +1,443 @@
+{
+  "text_query": "Find document content related to this image.",
+  "text_only_results": [
+    {
+      "record_id": "text_7",
+      "modality": "text",
+      "content_type": "text",
+      "source_doc": "sample_multimodal_invoice.pdf",
+      "page": 1,
+      "text": "Items and Services",
+      "image_path": null,
+      "similarity": 0.9032
+    },
+    {
+      "record_id": "text_2",
+      "modality": "text",
+      "content_type": "text",
+      "source_doc": "sample_multimodal_invoice.pdf",
+      "page": 1,
+      "text": "Supplier",
+      "image_path": null,
+      "similarity": 0.9009
+    },
+    {
+      "record_id": "text_11",
+      "modality": "text",
+      "content_type": "text",
+      "source_doc": "sample_multimodal_invoice.pdf",
+      "page": 1,
+      "text": "Grand Total",
+      "image_path": null,
+      "similarity": 0.889
+    },
+    {
+      "record_id": "text_21",
+      "modality": "text",
+      "content_type": "text",
+      "source_doc": "sample_multimodal_invoice.pdf",
+      "page": 2,
+      "text": "Service Summary",
+      "image_path": null,
+      "similarity": 0.8839
+    },
+    {
+      "record_id": "text_13",
+      "modality": "text",
+      "content_type": "text",
+      "source_doc": "sample_multimodal_invoice.pdf",
+      "page": 1,
+      "text": "Notes: Goods supplied are covered by the manufacturer's standard warranty. Services are deemed accepted after written confirmation by the customer.",
+      "image_path": null,
+      "similarity": 0.882
+    },
+    {
+      "record_id": "text_1",
+      "modality": "text",
+      "content_type": "text",
+      "source_doc": "sample_multimodal_invoice.pdf",
+      "page": 1,
+      "text": "Original for recipient",
+      "image_path": null,
+      "similarity": 0.8762
+    },
+    {
+      "record_id": "text_14",
+      "modality": "text",
+      "content_type": "text",
+      "source_doc": "sample_multimodal_invoice.pdf",
+      "page": 1,
+      "text": "Authorised Signatory",
+      "image_path": null,
+      "similarity": 0.8729
+    },
+    {
+      "record_id": "text_17",
+      "modality": "text",
+      "content_type": "text",
+      "source_doc": "sample_multimodal_invoice.pdf",
+      "page": 2,
+      "text": "Service and Delivery Details",
+      "image_path": null,
+      "similarity": 0.8707
+    }
+  ],
+  "image_only_results": [
+    {
+      "record_id": "image_1",
+      "modality": "image",
+      "content_type": "image",
+      "source_doc": "sample_multimodal_invoice.pdf",
+      "page": null,
+      "text": "the table shows the different types of products that are available",
+      "image_path": null,
+      "similarity": 0.7591
+    },
+    {
+      "record_id": "image_4",
+      "modality": "image",
+      "content_type": "image",
+      "source_doc": "sample_multimodal_invoice.pdf",
+      "page": null,
+      "text": "table showing the different types of services",
+      "image_path": null,
+      "similarity": 0.7154
+    },
+    {
+      "record_id": "image_0",
+      "modality": "image",
+      "content_type": "image",
+      "source_doc": "sample_multimodal_invoice.pdf",
+      "page": null,
+      "text": "a blue and white graphic with the words medium and large",
+      "image_path": null,
+      "similarity": 0.7122
+    },
+    {
+      "record_id": "image_5",
+      "modality": "image",
+      "content_type": "image",
+      "source_doc": "sample_multimodal_invoice.pdf",
+      "page": null,
+      "text": "a series of different types of lines in different colors",
+      "image_path": null,
+      "similarity": 0.6443
+    },
+    {
+      "record_id": "image_2",
+      "modality": "image",
+      "content_type": "image",
+      "source_doc": "sample_multimodal_invoice.pdf",
+      "page": null,
+      "text": "the table shows the total number of employees and the number of employees",
+      "image_path": null,
+      "similarity": 0.5999
+    },
+    {
+      "record_id": "image_3",
+      "modality": "image",
+      "content_type": "image",
+      "source_doc": "sample_multimodal_invoice.pdf",
+      "page": null,
+      "text": "the table shows the different dates for each location",
+      "image_path": null,
+      "similarity": 0.5992
+    },
+    {
+      "record_id": "text_13",
+      "modality": "text",
+      "content_type": "text",
+      "source_doc": "sample_multimodal_invoice.pdf",
+      "page": 1,
+      "text": "Notes: Goods supplied are covered by the manufacturer's standard warranty. Services are deemed accepted after written confirmation by the customer.",
+      "image_path": null,
+      "similarity": 0.2585
+    },
+    {
+      "record_id": "text_26",
+      "modality": "text",
+      "content_type": "text",
+      "source_doc": "sample_multimodal_invoice.pdf",
+      "page": 2,
+      "text": "Document Control",
+      "image_path": null,
+      "similarity": 0.2538
+    }
+  ],
+  "text_plus_image_results": [
+    {
+      "record_id": "text_26",
+      "modality": "text",
+      "content_type": "text",
+      "source_doc": "sample_multimodal_invoice.pdf",
+      "page": 2,
+      "text": "Document Control",
+      "image_path": null,
+      "similarity": 0.7357
+    },
+    {
+      "record_id": "text_13",
+      "modality": "text",
+      "content_type": "text",
+      "source_doc": "sample_multimodal_invoice.pdf",
+      "page": 1,
+      "text": "Notes: Goods supplied are covered by the manufacturer's standard warranty. Services are deemed accepted after written confirmation by the customer.",
+      "image_path": null,
+      "similarity": 0.728
+    },
+    {
+      "record_id": "text_1",
+      "modality": "text",
+      "content_type": "text",
+      "source_doc": "sample_multimodal_invoice.pdf",
+      "page": 1,
+      "text": "Original for recipient",
+      "image_path": null,
+      "similarity": 0.7192
+    },
+    {
+      "record_id": "text_14",
+      "modality": "text",
+      "content_type": "text",
+      "source_doc": "sample_multimodal_invoice.pdf",
+      "page": 1,
+      "text": "Authorised Signatory",
+      "image_path": null,
+      "similarity": 0.7146
+    },
+    {
+      "record_id": "text_21",
+      "modality": "text",
+      "content_type": "text",
+      "source_doc": "sample_multimodal_invoice.pdf",
+      "page": 2,
+      "text": "Service Summary",
+      "image_path": null,
+      "similarity": 0.7117
+    },
+    {
+      "record_id": "text_11",
+      "modality": "text",
+      "content_type": "text",
+      "source_doc": "sample_multimodal_invoice.pdf",
+      "page": 1,
+      "text": "Grand Total",
+      "image_path": null,
+      "similarity": 0.7105
+    },
+    {
+      "record_id": "text_7",
+      "modality": "text",
+      "content_type": "text",
+      "source_doc": "sample_multimodal_invoice.pdf",
+      "page": 1,
+      "text": "Items and Services",
+      "image_path": null,
+      "similarity": 0.7101
+    },
+    {
+      "record_id": "text_4",
+      "modality": "text",
+      "content_type": "text",
+      "source_doc": "sample_multimodal_invoice.pdf",
+      "page": 1,
+      "text": "Bill To",
+      "image_path": null,
+      "similarity": 0.7084
+    }
+  ],
+  "comparison": [
+    {
+      "query_mode": "text-only",
+      "rank": 1,
+      "modality": "text",
+      "page": 1,
+      "similarity": 0.9032,
+      "content": "Items and Services"
+    },
+    {
+      "query_mode": "text-only",
+      "rank": 2,
+      "modality": "text",
+      "page": 1,
+      "similarity": 0.9009,
+      "content": "Supplier"
+    },
+    {
+      "query_mode": "text-only",
+      "rank": 3,
+      "modality": "text",
+      "page": 1,
+      "similarity": 0.889,
+      "content": "Grand Total"
+    },
+    {
+      "query_mode": "text-only",
+      "rank": 4,
+      "modality": "text",
+      "page": 2,
+      "similarity": 0.8839,
+      "content": "Service Summary"
+    },
+    {
+      "query_mode": "text-only",
+      "rank": 5,
+      "modality": "text",
+      "page": 1,
+      "similarity": 0.882,
+      "content": "Notes: Goods supplied are covered by the manufacturer's standard warranty. Services are deemed accepted after written confirmation by the customer."
+    },
+    {
+      "query_mode": "text-only",
+      "rank": 6,
+      "modality": "text",
+      "page": 1,
+      "similarity": 0.8762,
+      "content": "Original for recipient"
+    },
+    {
+      "query_mode": "text-only",
+      "rank": 7,
+      "modality": "text",
+      "page": 1,
+      "similarity": 0.8729,
+      "content": "Authorised Signatory"
+    },
+    {
+      "query_mode": "text-only",
+      "rank": 8,
+      "modality": "text",
+      "page": 2,
+      "similarity": 0.8707,
+      "content": "Service and Delivery Details"
+    },
+    {
+      "query_mode": "image-only",
+      "rank": 1,
+      "modality": "image",
+      "page": null,
+      "similarity": 0.7591,
+      "content": "the table shows the different types of products that are available"
+    },
+    {
+      "query_mode": "image-only",
+      "rank": 2,
+      "modality": "image",
+      "page": null,
+      "similarity": 0.7154,
+      "content": "table showing the different types of services"
+    },
+    {
+      "query_mode": "image-only",
+      "rank": 3,
+      "modality": "image",
+      "page": null,
+      "similarity": 0.7122,
+      "content": "a blue and white graphic with the words medium and large"
+    },
+    {
+      "query_mode": "image-only",
+      "rank": 4,
+      "modality": "image",
+      "page": null,
+      "similarity": 0.6443,
+      "content": "a series of different types of lines in different colors"
+    },
+    {
+      "query_mode": "image-only",
+      "rank": 5,
+      "modality": "image",
+      "page": null,
+      "similarity": 0.5999,
+      "content": "the table shows the total number of employees and the number of employees"
+    },
+    {
+      "query_mode": "image-only",
+      "rank": 6,
+      "modality": "image",
+      "page": null,
+      "similarity": 0.5992,
+      "content": "the table shows the different dates for each location"
+    },
+    {
+      "query_mode": "image-only",
+      "rank": 7,
+      "modality": "text",
+      "page": 1,
+      "similarity": 0.2585,
+      "content": "Notes: Goods supplied are covered by the manufacturer's standard warranty. Services are deemed accepted after written confirmation by the customer."
+    },
+    {
+      "query_mode": "image-only",
+      "rank": 8,
+      "modality": "text",
+      "page": 2,
+      "similarity": 0.2538,
+      "content": "Document Control"
+    },
+    {
+      "query_mode": "text+image",
+      "rank": 1,
+      "modality": "text",
+      "page": 2,
+      "similarity": 0.7357,
+      "content": "Document Control"
+    },
+    {
+      "query_mode": "text+image",
+      "rank": 2,
+      "modality": "text",
+      "page": 1,
+      "similarity": 0.728,
+      "content": "Notes: Goods supplied are covered by the manufacturer's standard warranty. Services are deemed accepted after written confirmation by the customer."
+    },
+    {
+      "query_mode": "text+image",
+      "rank": 3,
+      "modality": "text",
+      "page": 1,
+      "similarity": 0.7192,
+      "content": "Original for recipient"
+    },
+    {
+      "query_mode": "text+image",
+      "rank": 4,
+      "modality": "text",
+      "page": 1,
+      "similarity": 0.7146,
+      "content": "Authorised Signatory"
+    },
+    {
+      "query_mode": "text+image",
+      "rank": 5,
+      "modality": "text",
+      "page": 2,
+      "similarity": 0.7117,
+      "content": "Service Summary"
+    },
+    {
+      "query_mode": "text+image",
+      "rank": 6,
+      "modality": "text",
+      "page": 1,
+      "similarity": 0.7105,
+      "content": "Grand Total"
+    },
+    {
+      "query_mode": "text+image",
+      "rank": 7,
+      "modality": "text",
+      "page": 1,
+      "similarity": 0.7101,
+      "content": "Items and Services"
+    },
+    {
+      "query_mode": "text+image",
+      "rank": 8,
+      "modality": "text",
+      "page": 1,
+      "similarity": 0.7084,
+      "content": "Bill To"
+    }
+  ]
+}
