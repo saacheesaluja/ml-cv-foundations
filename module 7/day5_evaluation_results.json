@@ -1,0 +1,199 @@
+{
+  "evaluation_cases": [
+    {
+      "case_id": "TXT-01",
+      "query_type": "text_only",
+      "question": "Who is the supplier?",
+      "reference_answer": "NORTHSTAR OFFICE SUPPLIES",
+      "expected_facts": [
+        "NORTHSTAR OFFICE SUPPLIES"
+      ],
+      "expected_sources": [],
+      "notes": "Verify the supplier name against the sample invoice."
+    },
+    {
+      "case_id": "TXT-02",
+      "query_type": "text_only",
+      "question": "What is the invoice total?",
+      "reference_answer": "₹9,086.00",
+      "expected_facts": [
+        "9086"
+      ],
+      "expected_sources": [],
+      "notes": "The expected amount should be checked against the exact invoice currency and formatting."
+    },
+    {
+      "case_id": "IMG-01",
+      "query_type": "text_plus_image",
+      "question": "Find a document visual similar to the supplied query image.",
+      "reference_answer": "A relevant extracted document image is retrieved and identified by filename.",
+      "expected_facts": [],
+      "expected_sources": [],
+      "notes": "Human reviewer must confirm visual relevance; do not score image filename overlap as visual correctness."
+    },
+    {
+      "case_id": "MH-01",
+      "query_type": "multi_hop",
+      "question": "Compare the chart on page 2 with the totals table on page 1.",
+      "reference_answer": "The answer should cite the chart evidence from page 2 and the totals table evidence from page 1, then compare only values visible in those sources.",
+      "expected_facts": [],
+      "expected_sources": [],
+      "notes": "Requires both sources and human verification of the comparison."
+    }
+  ],
+  "agent_run_input_template": [
+    {
+      "case_id": "TXT-01",
+      "system": "agentic",
+      "answer": "",
+      "retrieved_source_ids": "",
+      "cited_source_ids": "",
+      "tool_calls": 0,
+      "human_answer_correct": null,
+      "human_grounding_correct": null,
+      "visual_relevance_correct": null,
+      "review_notes": ""
+    },
+    {
+      "case_id": "TXT-02",
+      "system": "agentic",
+      "answer": "",
+      "retrieved_source_ids": "",
+      "cited_source_ids": "",
+      "tool_calls": 0,
+      "human_answer_correct": null,
+      "human_grounding_correct": null,
+      "visual_relevance_correct": null,
+      "review_notes": ""
+    },
+    {
+      "case_id": "IMG-01",
+      "system": "agentic",
+      "answer": "",
+      "retrieved_source_ids": "",
+      "cited_source_ids": "",
+      "tool_calls": 0,
+      "human_answer_correct": null,
+      "human_grounding_correct": null,
+      "visual_relevance_correct": null,
+      "review_notes": ""
+    },
+    {
+      "case_id": "MH-01",
+      "system": "agentic",
+      "answer": "",
+      "retrieved_source_ids": "",
+      "cited_source_ids": "",
+      "tool_calls": 0,
+      "human_answer_correct": null,
+      "human_grounding_correct": null,
+      "visual_relevance_correct": null,
+      "review_notes": ""
+    }
+  ],
+  "agent_scores": [
+    {
+      "case_id": "TXT-01",
+      "fact_coverage": 0.0,
+      "citation_validity": null,
+      "tool_calls": 0,
+      "human_answer_correct": null,
+      "human_grounding_correct": null,
+      "visual_relevance_correct": null
+    },
+    {
+      "case_id": "TXT-02",
+      "fact_coverage": 0.0,
+      "citation_validity": null,
+      "tool_calls": 0,
+      "human_answer_correct": null,
+      "human_grounding_correct": null,
+      "visual_relevance_correct": null
+    },
+    {
+      "case_id": "IMG-01",
+      "fact_coverage": null,
+      "citation_validity": null,
+      "tool_calls": 0,
+      "human_answer_correct": null,
+      "human_grounding_correct": null,
+      "visual_relevance_correct": null
+    },
+    {
+      "case_id": "MH-01",
+      "fact_coverage": null,
+      "citation_validity": null,
+      "tool_calls": 0,
+      "human_answer_correct": null,
+      "human_grounding_correct": null,
+      "visual_relevance_correct": null
+    }
+  ],
+  "retrieval_comparison": [
+    {
+      "case_id": "TXT-01",
+      "system": "module6_baseline",
+      "precision@5": null,
+      "recall@5": null,
+      "retrieved_ids": "text_2, text_4, image_3, text_26, image_5"
+    },
+    {
+      "case_id": "TXT-02",
+      "system": "module6_baseline",
+      "precision@5": null,
+      "recall@5": null,
+      "retrieved_ids": "text_11, image_2, text_26, text_4, image_5"
+    },
+    {
+      "case_id": "MH-01",
+      "system": "module6_baseline",
+      "precision@5": null,
+      "recall@5": null,
+      "retrieved_ids": "image_4, image_3, image_1, image_2, text_4"
+    }
+  ],
+  "efficiency": [
+    {
+      "system": "module6_baseline",
+      "tool_calls": 1,
+      "note": "Single retrieval pass per query."
+    },
+    {
+      "system": "module7_agentic",
+      "tool_calls": 12,
+      "note": "Count from uploaded Day 2 and Day 4 traces; add Day 3 calls if available."
+    }
+  ],
+  "human_rubric": [
+    {
+      "dimension": "Answer correctness",
+      "score_0": "Incorrect or unsupported",
+      "score_1": "Partially correct",
+      "score_2": "Correct and complete"
+    },
+    {
+      "dimension": "Grounding/citations",
+      "score_0": "No valid supporting source",
+      "score_1": "Some claims supported; citation gaps",
+      "score_2": "All key claims supported by cited sources"
+    },
+    {
+      "dimension": "Visual relevance",
+      "score_0": "Wrong or irrelevant image",
+      "score_1": "Partially relevant image",
+      "score_2": "Correct visual evidence retrieved"
+    },
+    {
+      "dimension": "Multi-hop completeness",
+      "score_0": "Misses a required hop",
+      "score_1": "Finds some required sources",
+      "score_2": "Finds and connects all required sources"
+    },
+    {
+      "dimension": "Tool-use efficiency",
+      "score_0": "Unnecessary/repeated calls",
+      "score_1": "Some avoidable calls",
+      "score_2": "Only useful calls; stops appropriately"
+    }
+  ]
+}

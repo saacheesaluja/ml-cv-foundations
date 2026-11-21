@@ -1,0 +1,144 @@
+{
+  "main_run": {
+    "original_query": "What is the invoice total and who is the supplier?",
+    "attempts": [
+      {
+        "attempt": 1,
+        "query": "What is the invoice total and who is the supplier?",
+        "retrieval": {
+          "ok": true,
+          "query": "What is the invoice total and who is the supplier?",
+          "hits": [
+            {
+              "source_id": "PDF-P1",
+              "source_doc": "sample_multimodal_invoice.pdf",
+              "page": 1,
+              "score": 0.061,
+              "text": "Synthetic sample document — for notebook testing\nPage 1\nTAX INVOICE\nOriginal for recipient\nSupplier\nMeridian Research Labs Pvt. Ltd.\nPlot 18, Sector 44\nGurugram, Haryana 122003\nGSTIN: 06AABCM1234F1Z5\nEmail: billing@meridianlabs.example\nBill To\nNorthstar Office Supplies\nUnit 402, Tech Park\nJaipur, Rajasthan 302017\nGSTIN: 08AACCN5678L1Z2\nAttn: Accounts Payable\nInvoice No.\nMRL-2026-1184\nInvoice Date\n18 Nov 2026\nPO Number\nNS-PO-7741\nDue Date\n03 Dec 2026\nPlace of Supply\nRajasthan\nCurrency\nINR (I)\nItems and Services\n#\nDescription\nHSN/SAC\nQty\nUnit Price (I)\nAmount (I)\n1\nWorkstation computer — 32 GB RAM, 1 TB SSD\n8471\n2\n68,500.00\n1,37,000.00\n2\n27-inch IPS monitor\n8528\n3\n18,200.00\n54,600.00\n3\nNetwork switch, 24-port managed\n8517\n1\n24,750.00\n24,750.00\n4\nInstallation and configuration services\n9987\n1\n12,000.00\n12,000.00\n5\nOn-site support — quarterly package\n9983\n1\n8,500.00\n8,500.00\nSubtotal\nI2,36,850.00\nCGST (9%)\nI21,316.50\nSGST (9%)\nI21,316.50\nRound Off\nI0.00\nGrand Total\nI2,79,483.00\nAmount in words: Rupees Two Lakh Seventy-Nine Thousand Four Hundred Eighty-Three Only.\nPayment terms: Net 15 days from invoice date. Please quote invoice number MRL-2026-1184 in the payment reference.\nBank details: Meridian Research Labs Pvt. Ltd. | A/C: 018204000771 | IFSC: HDFC0001842 | Bank: HDFC Bank, Gurugram\nNotes: Goods supplied are covered by the manufacturer's standard warranty. Services are deemed "
+            },
+            {
+              "source_id": "PDF-P2",
+              "source_doc": "sample_multimodal_invoice.pdf",
+              "page": 2,
+              "score": 0.0085,
+              "text": "Synthetic sample document — for notebook testing\nPage 2\nService and Delivery Details\nSupporting schedule for invoice MRL-2026-1184\nDelivery Schedule\nDelivery Ref.\nItem\nDelivery Date\nLocation\nStatus\nDLV-8812\nWorkstations (2 units)\n17 Nov 2026\nJaipur office\nDelivered\nDLV-8813\nMonitors (3 units)\n17 Nov 2026\nJaipur office\nDelivered\nDLV-8814\n24-port network switch\n18 Nov 2026\nJaipur office\nDelivered\nService Summary\nService\nWork performed\nHours\nCompletion\nInstallation\nUnpacking, hardware checks, workstation setup and OS configuration.\n6\n18 Nov 2026\nNetwork setup\nSwitch configuration, VLAN assignment and connectivity testing.\n3\n18 Nov 2026\nUser handover\nBasic user orientation and handover of asset register.\n2\n18 Nov 2026\nDeployment Overview\nWorkstations\n2 units\nManaged Switch\n24 ports\nOffice Network\nLAN + Internet\nThe workstations connect to the managed switch, which provides access to the office network. The diagram is illustrative and is included\nas a visual element for document parsing practice.\nDocument Control\nPrepared by: Finance Operations | Reviewed by: Procurement Desk | Revision: 1.0 | Reference: MRL-2026-1184\nThis is a synthetic sample document created for testing document ingestion and layout extraction. All entities, addresses, tax IDs and bank details\nare fictional."
+            }
+          ]
+        },
+        "assessment": {
+          "sufficient": true,
+          "valid_hit_count": 1,
+          "covered_terms": [
+            "invoice",
+            "supplier",
+            "total"
+          ],
+          "missing_terms": [],
+          "reason": "Evidence meets heuristic threshold."
+        }
+      }
+    ],
+    "sufficient": true,
+    "attempt_count": 1,
+    "stop_reason": "sufficient evidence"
+  },
+  "source_verification": {
+    "valid": true,
+    "verified_source_ids": [
+      "PDF-P1",
+      "PDF-P2"
+    ],
+    "errors": []
+  },
+  "grounded_response": "Retrieved evidence for: What is the invoice total and who is the supplier?\\n- Synthetic sample document — for notebook testing\nPage 1\nTAX INVOICE\nOriginal for recipient\nSupplier\nMeridian Research Labs Pvt. Ltd.\nPlot 18, Sector 44\nGurugram, Haryana 122003\nGSTIN: 06AABCM1234F1Z5\nEmail: billing@meridianlabs.example\nBill To\nNorthstar Office Supplies\nUnit 402, Tech Park\nJaipur, Rajasthan 302017\nGSTIN: 08AACCN5678L1Z2\nAttn: Accounts Payable\nInvoice No.\nMRL-2026-1184\nInvoice Date\n18 Nov 2026\nPO Number\nNS-PO-7741\nDue Date\n03 Dec 2026\nPlace of Supply\nRajasthan\nCurrency\nINR (I)\nItems and Services\n#\nDescription\nHSN/SAC\nQty\nUnit Pri [Source: PDF-P1, sample_multimodal_invoice.pdf, page 1]\\n- Synthetic sample document — for notebook testing\nPage 2\nService and Delivery Details\nSupporting schedule for invoice MRL-2026-1184\nDelivery Schedule\nDelivery Ref.\nItem\nDelivery Date\nLocation\nStatus\nDLV-8812\nWorkstations (2 units)\n17 Nov 2026\nJaipur office\nDelivered\nDLV-8813\nMonitors (3 units)\n17 Nov 2026\nJaipur office\nDelivered\nDLV-8814\n24-port network switch\n18 Nov 2026\nJaipur office\nDelivered\nService Summary\nService\nWork performed\nHours\nCompletion\nInstallation\nUnpacking, hardware checks, workstation setup and OS configuration.\n6\n18 Nov 2026\nN [Source: PDF-P2, sample_multimodal_invoice.pdf, page 2]\\nUse the cited excerpts as evidence; verify exact numeric values against the source document.",
+  "recovery_demo": {
+    "attempts": [
+      {
+        "attempt": 1,
+        "page_filter": 999,
+        "retrieval": {
+          "ok": false,
+          "query": "invoice total supplier amount",
+          "hits": [],
+          "reason": "No records matched the page filter."
+        },
+        "assessment": {
+          "sufficient": false,
+          "valid_hit_count": 0,
+          "covered_terms": [],
+          "missing_terms": [
+            "amount",
+            "invoice",
+            "supplier",
+            "total"
+          ],
+          "reason": "Evidence is weak or misses key query terms."
+        }
+      },
+      {
+        "attempt": 2,
+        "page_filter": null,
+        "query": "invoice total supplier amount vendor seller from grand total amount due invoice amount sum amount invoice supplier total",
+        "retrieval": {
+          "ok": true,
+          "query": "invoice total supplier amount vendor seller from grand total amount due invoice amount sum amount invoice supplier total",
+          "hits": [
+            {
+              "source_id": "PDF-P1",
+              "source_doc": "sample_multimodal_invoice.pdf",
+              "page": 1,
+              "score": 0.0735,
+              "text": "Synthetic sample document — for notebook testing\nPage 1\nTAX INVOICE\nOriginal for recipient\nSupplier\nMeridian Research Labs Pvt. Ltd.\nPlot 18, Sector 44\nGurugram, Haryana 122003\nGSTIN: 06AABCM1234F1Z5\nEmail: billing@meridianlabs.example\nBill To\nNorthstar Office Supplies\nUnit 402, Tech Park\nJaipur, Rajasthan 302017\nGSTIN: 08AACCN5678L1Z2\nAttn: Accounts Payable\nInvoice No.\nMRL-2026-1184\nInvoice Date\n18 Nov 2026\nPO Number\nNS-PO-7741\nDue Date\n03 Dec 2026\nPlace of Supply\nRajasthan\nCurrency\nINR (I)\nItems and Services\n#\nDescription\nHSN/SAC\nQty\nUnit Price (I)\nAmount (I)\n1\nWorkstation computer — 32 GB RAM, 1 TB SSD\n8471\n2\n68,500.00\n1,37,000.00\n2\n27-inch IPS monitor\n8528\n3\n18,200.00\n54,600.00\n3\nNetwork switch, 24-port managed\n8517\n1\n24,750.00\n24,750.00\n4\nInstallation and configuration services\n9987\n1\n12,000.00\n12,000.00\n5\nOn-site support — quarterly package\n9983\n1\n8,500.00\n8,500.00\nSubtotal\nI2,36,850.00\nCGST (9%)\nI21,316.50\nSGST (9%)\nI21,316.50\nRound Off\nI0.00\nGrand Total\nI2,79,483.00\nAmount in words: Rupees Two Lakh Seventy-Nine Thousand Four Hundred Eighty-Three Only.\nPayment terms: Net 15 days from invoice date. Please quote invoice number MRL-2026-1184 in the payment reference.\nBank details: Meridian Research Labs Pvt. Ltd. | A/C: 018204000771 | IFSC: HDFC0001842 | Bank: HDFC Bank, Gurugram\nNotes: Goods supplied are covered by the manufacturer's standard warranty. Services are deemed "
+            },
+            {
+              "source_id": "PDF-P2",
+              "source_doc": "sample_multimodal_invoice.pdf",
+              "page": 2,
+              "score": 0.0095,
+              "text": "Synthetic sample document — for notebook testing\nPage 2\nService and Delivery Details\nSupporting schedule for invoice MRL-2026-1184\nDelivery Schedule\nDelivery Ref.\nItem\nDelivery Date\nLocation\nStatus\nDLV-8812\nWorkstations (2 units)\n17 Nov 2026\nJaipur office\nDelivered\nDLV-8813\nMonitors (3 units)\n17 Nov 2026\nJaipur office\nDelivered\nDLV-8814\n24-port network switch\n18 Nov 2026\nJaipur office\nDelivered\nService Summary\nService\nWork performed\nHours\nCompletion\nInstallation\nUnpacking, hardware checks, workstation setup and OS configuration.\n6\n18 Nov 2026\nNetwork setup\nSwitch configuration, VLAN assignment and connectivity testing.\n3\n18 Nov 2026\nUser handover\nBasic user orientation and handover of asset register.\n2\n18 Nov 2026\nDeployment Overview\nWorkstations\n2 units\nManaged Switch\n24 ports\nOffice Network\nLAN + Internet\nThe workstations connect to the managed switch, which provides access to the office network. The diagram is illustrative and is included\nas a visual element for document parsing practice.\nDocument Control\nPrepared by: Finance Operations | Reviewed by: Procurement Desk | Revision: 1.0 | Reference: MRL-2026-1184\nThis is a synthetic sample document created for testing document ingestion and layout extraction. All entities, addresses, tax IDs and bank details\nare fictional."
+            }
+          ]
+        },
+        "assessment": {
+          "sufficient": true,
+          "valid_hit_count": 1,
+          "covered_terms": [
+            "amount",
+            "invoice",
+            "supplier",
+            "total"
+          ],
+          "missing_terms": [],
+          "reason": "Evidence meets heuristic threshold."
+        }
+      }
+    ],
+    "recovered": true
+  },
+  "evaluation": [
+    {
+      "query": "What is the invoice total?",
+      "attempts": 1,
+      "sufficient": true,
+      "stop_reason": "sufficient evidence"
+    },
+    {
+      "query": "Who is the supplier?",
+      "attempts": 3,
+      "sufficient": false,
+      "stop_reason": "attempt limit or repeated query"
+    },
+    {
+      "query": "What is the delivery address?",
+      "attempts": 1,
+      "sufficient": true,
+      "stop_reason": "sufficient evidence"
+    },
+    {
+      "query": "Compare the chart with the totals table.",
+      "attempts": 3,
+      "sufficient": false,
+      "stop_reason": "attempt limit or repeated query"
+    }
+  ]
+}

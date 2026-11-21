@@ -1,0 +1,5 @@
+case_id,system,answer,retrieved_source_ids,cited_source_ids,tool_calls,human_answer_correct,human_grounding_correct,visual_relevance_correct,review_notes
+TXT-01,agentic,,,,0,,,,
+TXT-02,agentic,,,,0,,,,
+IMG-01,agentic,,,,0,,,,
+MH-01,agentic,,,,0,,,,

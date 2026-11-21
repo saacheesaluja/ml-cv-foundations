@@ -1,0 +1,195 @@
+{
+  "query_text": "Find document images and text related to the visual content in this image.",
+  "query_image": "figure-1-1.jpg",
+  "image_hits": [
+    {
+      "image_id": "IMG1",
+      "filename": "figure-1-1.jpg",
+      "path": "module7_day4/document_images/figure-1-1.jpg",
+      "similarity": 0.7838
+    },
+    {
+      "image_id": "IMG5",
+      "filename": "table-2-4.jpg",
+      "path": "module7_day4/document_images/table-2-4.jpg",
+      "similarity": 0.5556
+    },
+    {
+      "image_id": "IMG2",
+      "filename": "table-1-1.jpg",
+      "path": "module7_day4/document_images/table-1-1.jpg",
+      "similarity": 0.5542
+    },
+    {
+      "image_id": "IMG3",
+      "filename": "table-1-2.jpg",
+      "path": "module7_day4/document_images/table-1-2.jpg",
+      "similarity": 0.5483
+    },
+    {
+      "image_id": "IMG4",
+      "filename": "table-2-3.jpg",
+      "path": "module7_day4/document_images/table-2-3.jpg",
+      "similarity": 0.496
+    }
+  ],
+  "text_hits": [
+    {
+      "source_id": "PDF-P2",
+      "source_doc": "sample_multimodal_invoice.pdf",
+      "page": 2,
+      "text": "Synthetic sample document — for notebook testing\nPage 2\nService and Delivery Details\nSupporting schedule for invoice MRL-2026-1184\nDelivery Schedule\nDelivery Ref.\nItem\nDelivery Date\nLocation\nStatus\nDLV-8812\nWorkstations (2 units)\n17 Nov 2026\nJaipur office\nDelivered\nDLV-8813\nMonitors (3 units)\n17 Nov 2026\nJaipur office\nDelivered\nDLV-8814\n24-port network switch\n18 Nov 2026\nJaipur office\nDelivered\nService Summary\nService\nWork performed\nHours\nCompletion\nInstallation\nUnpacking, hardware checks, workstation setup and OS configuration.\n6\n18 Nov 2026\nNetwork setup\nSwitch configuration, VLAN assignment and connectivity testing.\n3\n18 Nov 2026\nUser handover\nBasic user orientation and handover of asset register.\n2\n18 Nov 2026\nDeployment Overview\nWorkstations\n2 units\nManaged Switch\n24 ports\nOffice Network\nLAN + Internet\nThe workstations connect to the managed switch, which provides access to the office network. The diagram is illustrative and is included\nas a visual element for document parsing practice.\nDocument Control\nPrepared by: Finance Operations | Reviewed by: Procurement Desk | Revision: 1.0 | Reference: MRL-2026-1184\nThis is a synthetic sample document created for testing document ingestion and layout extraction. All entities, addresses, tax IDs and bank details\nare fictional.",
+      "text_similarity": 0.0177
+    },
+    {
+      "source_id": "PDF-P1",
+      "source_doc": "sample_multimodal_invoice.pdf",
+      "page": 1,
+      "text": "Synthetic sample document — for notebook testing\nPage 1\nTAX INVOICE\nOriginal for recipient\nSupplier\nMeridian Research Labs Pvt. Ltd.\nPlot 18, Sector 44\nGurugram, Haryana 122003\nGSTIN: 06AABCM1234F1Z5\nEmail: billing@meridianlabs.example\nBill To\nNorthstar Office Supplies\nUnit 402, Tech Park\nJaipur, Rajasthan 302017\nGSTIN: 08AACCN5678L1Z2\nAttn: Accounts Payable\nInvoice No.\nMRL-2026-1184\nInvoice Date\n18 Nov 2026\nPO Number\nNS-PO-7741\nDue Date\n03 Dec 2026\nPlace of Supply\nRajasthan\nCurrency\nINR (I)\nItems and Services\n#\nDescription\nHSN/SAC\nQty\nUnit Price (I)\nAmount (I)\n1\nWorkstation computer — 32 GB RAM, 1 TB SSD\n8471\n2\n68,500.00\n1,37,000.00\n2\n27-inch IPS monitor\n8528\n3\n18,200.00\n54,600.00\n3\nNetwork switch, 24-port managed\n8517\n1\n24,750.00\n24,750.00\n4\nInstallation and configuration services\n9987\n1\n12,000.00\n12,000.00\n5\nOn-site support — quarterly package\n9983\n1\n8,500.00\n8,500.00\nSubtotal\nI2,36,850.00\nCGST (9%)\nI21,316.50\nSGST (9%)\nI21,316.50\nRound Off\nI0.00\nGrand Total\nI2,79,483.00\nAmount in words: Rupees Two Lakh Seventy-Nine Thousand Four Hundred Eighty-Three Only.\nPayment terms: Net 15 days from invoice date. Please quote invoice number MRL-2026-1184 in the payment reference.\nBank details: Meridian Research Labs Pvt. Ltd. | A/C: 018204000771 | IFSC: HDFC0001842 | Bank: HDFC Bank, Gurugram\nNotes: Goods supplied are covered by the manufacturer's standard warranty. Services are deemed accepted after written confirmation\nby the customer.\nAuthorised Signatory",
+      "text_similarity": 0.0023
+    }
+  ],
+  "evidence_ledger": {
+    "query": "Find document images and text related to the visual content in this image.",
+    "query_image": "figure-1-1.jpg",
+    "image_evidence": [
+      {
+        "image_id": "IMG1",
+        "filename": "figure-1-1.jpg",
+        "path": "module7_day4/document_images/figure-1-1.jpg",
+        "clip_similarity": 0.7838
+      },
+      {
+        "image_id": "IMG5",
+        "filename": "table-2-4.jpg",
+        "path": "module7_day4/document_images/table-2-4.jpg",
+        "clip_similarity": 0.5556
+      },
+      {
+        "image_id": "IMG2",
+        "filename": "table-1-1.jpg",
+        "path": "module7_day4/document_images/table-1-1.jpg",
+        "clip_similarity": 0.5542
+      },
+      {
+        "image_id": "IMG3",
+        "filename": "table-1-2.jpg",
+        "path": "module7_day4/document_images/table-1-2.jpg",
+        "clip_similarity": 0.5483
+      },
+      {
+        "image_id": "IMG4",
+        "filename": "table-2-3.jpg",
+        "path": "module7_day4/document_images/table-2-3.jpg",
+        "clip_similarity": 0.496
+      }
+    ],
+    "text_evidence": [
+      {
+        "source_id": "PDF-P2",
+        "source_doc": "sample_multimodal_invoice.pdf",
+        "page": 2,
+        "text_similarity": 0.0177,
+        "text": "Synthetic sample document — for notebook testing\nPage 2\nService and Delivery Details\nSupporting schedule for invoice MRL-2026-1184\nDelivery Schedule\nDelivery Ref.\nItem\nDelivery Date\nLocation\nStatus\nDLV-8812\nWorkstations (2 units)\n17 Nov 2026\nJaipur office\nDelivered\nDLV-8813\nMonitors (3 units)\n17 Nov 2026\nJaipur office\nDelivered\nDLV-8814\n24-port network switch\n18 Nov 2026\nJaipur office\nDelivered\nService Summary\nService\nWork performed\nHours\nCompletion\nInstallation\nUnpacking, hardware checks, workstation setup and OS configuration.\n6\n18 Nov 2026\nNetwork setup\nSwitch configuration, VLAN assignment and connectivity testing.\n3\n18 Nov 2026\nUser handover\nBasic user orientation and handover of asset register.\n2\n18 Nov 2026\nDeployment Overview\nWorkstations\n2 units\nManaged Switch\n24 ports\nOffice Network\nLAN + Internet\nThe workstations connect to the managed switch, which provides access to the office network. The diagram is illustrative and is included\nas a visual element for document parsing practice.\nDocument Control\nPrepared by: Finance Operations | Reviewed by: Procurement Desk | Revision: 1.0 | Reference: MRL-2026-1184\nThis is a synthetic sample document created for testing document ingestion and layout extraction. All entities, addresses, tax IDs and bank details\nare fictional."
+      },
+      {
+        "source_id": "PDF-P1",
+        "source_doc": "sample_multimodal_invoice.pdf",
+        "page": 1,
+        "text_similarity": 0.0023,
+        "text": "Synthetic sample document — for notebook testing\nPage 1\nTAX INVOICE\nOriginal for recipient\nSupplier\nMeridian Research Labs Pvt. Ltd.\nPlot 18, Sector 44\nGurugram, Haryana 122003\nGSTIN: 06AABCM1234F1Z5\nEmail: billing@meridianlabs.example\nBill To\nNorthstar Office Supplies\nUnit 402, Tech Park\nJaipur, Rajasthan 302017\nGSTIN: 08AACCN5678L1Z2\nAttn: Accounts Payable\nInvoice No.\nMRL-2026-1184\nInvoice Date\n18 Nov 2026\nPO Number\nNS-PO-7741\nDue Date\n03 Dec 2026\nPlace of Supply\nRajasthan\nCurrency\nINR (I)\nItems and Services\n#\nDescription\nHSN/SAC\nQty\nUnit Price (I)\nAmount (I)\n1\nWorkstation computer — 32 GB RAM, 1 TB SSD\n8471\n2\n68,500.00\n1,37,000.00\n2\n27-inch IPS monitor\n8528\n3\n18,200.00\n54,600.00\n3\nNetwork switch, 24-port managed\n8517\n1\n24,750.00\n24,750.00\n4\nInstallation and configuration services\n9987\n1\n12,000.00\n12,000.00\n5\nOn-site support — quarterly package\n9983\n1\n8,500.00\n8,500.00\nSubtotal\nI2,36,850.00\nCGST (9%)\nI21,316.50\nSGST (9%)\nI21,316.50\nRound Off\nI0.00\nGrand Total\nI2,79,483.00\nAmount in words: Rupees Two Lakh Seventy-Nine Thousand Four Hundred Eighty-Three Only.\nPayment terms: Net 15 days from invoice date. Please quote invoice number MRL-2026-1184 in the payment reference.\nBank details: Meridian Research Labs Pvt. Ltd. | A/C: 018204000771 | IFSC: HDFC0001842 | Bank: HDFC Bank, Gurugram\nNotes: Goods supplied are covered by the manufacturer's standard warranty. Services are deemed accepted after written confirmation\nby the customer.\nAuthorised Signatory"
+      }
+    ]
+  },
+  "agent_trace": [
+    {
+      "step": 1,
+      "tool": "embed_query",
+      "input": {
+        "query_text": "Find document images and text related to the visual content in this image.",
+        "query_image": "figure-1-1.jpg"
+      },
+      "output": {
+        "image_embedding_dim": 512,
+        "text_embedding_dim": 512
+      }
+    },
+    {
+      "step": 2,
+      "tool": "retrieve_images",
+      "input": {
+        "top_k": 5
+      },
+      "output": [
+        {
+          "image_id": "IMG1",
+          "filename": "figure-1-1.jpg",
+          "path": "module7_day4/document_images/figure-1-1.jpg",
+          "similarity": 0.7838
+        },
+        {
+          "image_id": "IMG5",
+          "filename": "table-2-4.jpg",
+          "path": "module7_day4/document_images/table-2-4.jpg",
+          "similarity": 0.5556
+        },
+        {
+          "image_id": "IMG2",
+          "filename": "table-1-1.jpg",
+          "path": "module7_day4/document_images/table-1-1.jpg",
+          "similarity": 0.5542
+        },
+        {
+          "image_id": "IMG3",
+          "filename": "table-1-2.jpg",
+          "path": "module7_day4/document_images/table-1-2.jpg",
+          "similarity": 0.5483
+        },
+        {
+          "image_id": "IMG4",
+          "filename": "table-2-3.jpg",
+          "path": "module7_day4/document_images/table-2-3.jpg",
+          "similarity": 0.496
+        }
+      ]
+    },
+    {
+      "step": 3,
+      "tool": "cross_reference_text",
+      "input": {
+        "query": "Find document images and text related to the visual content in this image. figure 1 1.jpg table 2 4.jpg table 1 1.jpg",
+        "top_k": 5
+      },
+      "output": [
+        {
+          "source_id": "PDF-P2",
+          "source_doc": "sample_multimodal_invoice.pdf",
+          "page": 2,
+          "text": "Synthetic sample document — for notebook testing\nPage 2\nService and Delivery Details\nSupporting schedule for invoice MRL-2026-1184\nDelivery Schedule\nDelivery Ref.\nItem\nDelivery Date\nLocation\nStatus\nDLV-8812\nWorkstations (2 units)\n17 Nov 2026\nJaipur office\nDelivered\nDLV-8813\nMonitors (3 units)\n17 Nov 2026\nJaipur office\nDelivered\nDLV-8814\n24-port network switch\n18 Nov 2026\nJaipur office\nDelivered\nService Summary\nService\nWork performed\nHours\nCompletion\nInstallation\nUnpacking, hardware checks, workstation setup and OS configuration.\n6\n18 Nov 2026\nNetwork setup\nSwitch configuration, VLAN assignment and connectivity testing.\n3\n18 Nov 2026\nUser handover\nBasic user orientation and handover of asset register.\n2\n18 Nov 2026\nDeployment Overview\nWorkstations\n2 units\nManaged Switch\n24 ports\nOffice Network\nLAN + Internet\nThe workstations connect to the managed switch, which provides access to the office network. The diagram is illustrative and is included\nas a visual element for document parsing practice.\nDocument Control\nPrepared by: Finance Operations | Reviewed by: Procurement Desk | Revision: 1.0 | Reference: MRL-2026-1184\nThis is a synthetic sample document created for testing document ingestion and layout extraction. All entities, addresses, tax IDs and bank details\nare fictional.",
+          "text_similarity": 0.0177
+        },
+        {
+          "source_id": "PDF-P1",
+          "source_doc": "sample_multimodal_invoice.pdf",
+          "page": 1,
+          "text": "Synthetic sample document — for notebook testing\nPage 1\nTAX INVOICE\nOriginal for recipient\nSupplier\nMeridian Research Labs Pvt. Ltd.\nPlot 18, Sector 44\nGurugram, Haryana 122003\nGSTIN: 06AABCM1234F1Z5\nEmail: billing@meridianlabs.example\nBill To\nNorthstar Office Supplies\nUnit 402, Tech Park\nJaipur, Rajasthan 302017\nGSTIN: 08AACCN5678L1Z2\nAttn: Accounts Payable\nInvoice No.\nMRL-2026-1184\nInvoice Date\n18 Nov 2026\nPO Number\nNS-PO-7741\nDue Date\n03 Dec 2026\nPlace of Supply\nRajasthan\nCurrency\nINR (I)\nItems and Services\n#\nDescription\nHSN/SAC\nQty\nUnit Price (I)\nAmount (I)\n1\nWorkstation computer — 32 GB RAM, 1 TB SSD\n8471\n2\n68,500.00\n1,37,000.00\n2\n27-inch IPS monitor\n8528\n3\n18,200.00\n54,600.00\n3\nNetwork switch, 24-port managed\n8517\n1\n24,750.00\n24,750.00\n4\nInstallation and configuration services\n9987\n1\n12,000.00\n12,000.00\n5\nOn-site support — quarterly package\n9983\n1\n8,500.00\n8,500.00\nSubtotal\nI2,36,850.00\nCGST (9%)\nI21,316.50\nSGST (9%)\nI21,316.50\nRound Off\nI0.00\nGrand Total\nI2,79,483.00\nAmount in words: Rupees Two Lakh Seventy-Nine Thousand Four Hundred Eighty-Three Only.\nPayment terms: Net 15 days from invoice date. Please quote invoice number MRL-2026-1184 in the payment reference.\nBank details: Meridian Research Labs Pvt. Ltd. | A/C: 018204000771 | IFSC: HDFC0001842 | Bank: HDFC Bank, Gurugram\nNotes: Goods supplied are covered by the manufacturer's standard warranty. Services are deemed accepted after written confirmation\nby the customer.\nAuthorised Signatory",
+          "text_similarity": 0.0023
+        }
+      ]
+    },
+    {
+      "step": 4,
+      "tool": "synthesize",
+      "input": {
+        "evidence_counts": {
+          "images": 5,
+          "text": 2
+        }
+      },
+      "output": {
+        "response_preview": "Multimodal retrieval results\\n\\nRetrieved image candidates:\\n- figure-1-1.jpg (CLIP similarity: 0.7838)\\n- table-2-4.jpg (CLIP similarity: 0.5556)\\n- table-1-1.jpg (CLIP similarity: 0.5542)\\n- table-1-2.jpg (CLIP similarity: 0.5483)\\n- table-2-3.jpg (CLIP similarity: 0.496)\\n\\nRelated text evidence:\\n- [PDF-P2, sample_multimodal_invoice.pdf, page 2] Synthetic sample document — for notebook testing\nPage 2\nService and Delivery Details\nSupporting schedule for invoice MRL-2026-1184\nDelivery Schedule"
+      }
+    }
+  ],
+  "grounded_response": "Multimodal retrieval results\\n\\nRetrieved image candidates:\\n- figure-1-1.jpg (CLIP similarity: 0.7838)\\n- table-2-4.jpg (CLIP similarity: 0.5556)\\n- table-1-1.jpg (CLIP similarity: 0.5542)\\n- table-1-2.jpg (CLIP similarity: 0.5483)\\n- table-2-3.jpg (CLIP similarity: 0.496)\\n\\nRelated text evidence:\\n- [PDF-P2, sample_multimodal_invoice.pdf, page 2] Synthetic sample document — for notebook testing\nPage 2\nService and Delivery Details\nSupporting schedule for invoice MRL-2026-1184\nDelivery Schedule\nDelivery Ref.\nItem\nDelivery Date\nLocation\nStatus\nDLV-8812\nWorkstations (2 units)\n17 Nov 2026\nJaipur office\nDelivered\nDLV-8813\nMonitors (3 units)\n17 Nov 2026\nJaipur office\nDelivered\nDLV-8814\n24-port network switch\n18 Nov 2026\nJaipur office\nDelivered\nService Summary\nServic\\n- [PDF-P1, sample_multimodal_invoice.pdf, page 1] Synthetic sample document — for notebook testing\nPage 1\nTAX INVOICE\nOriginal for recipient\nSupplier\nMeridian Research Labs Pvt. Ltd.\nPlot 18, Sector 44\nGurugram, Haryana 122003\nGSTIN: 06AABCM1234F1Z5\nEmail: billing@meridianlabs.example\nBill To\nNorthstar Office Supplies\nUnit 402, Tech Park\nJaipur, Rajasthan 302017\nGSTIN: 08AACCN5678L1Z2\nAttn: Accounts Payable\nInvoice No.\nMRL-2026-1184\nInvoice Date\n18 Nov 2026\nPO Numbe\\n\\nLimitation: these are retrieval matches, not a VLM interpretation of the image. Confirm visual details from the image itself or pass the retrieved images and text to Qwen3-VL for grounded explanation."
+}

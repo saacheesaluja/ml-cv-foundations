@@ -1,0 +1,346 @@
+{
+  "query": "Compare the chart on page 2 with the totals table on page 1.",
+  "plan": {
+    "original_query": "Compare the chart on page 2 with the totals table on page 1.",
+    "signals": {
+      "comparison": true,
+      "pages": [],
+      "visual": true,
+      "table": true,
+      "query": "Compare the chart on page 2 with the totals table on page 1."
+    },
+    "tasks": [
+      {
+        "task_id": "T1",
+        "goal": "Locate the chart/visual",
+        "query": "chart graph diagram figure visual",
+        "page": null,
+        "modality": "image",
+        "tool": "find_images"
+      },
+      {
+        "task_id": "T2",
+        "goal": "Retrieve totals table evidence",
+        "query": "totals table total amount sum line items",
+        "page": null,
+        "modality": "text",
+        "tool": "retrieve_text"
+      }
+    ]
+  },
+  "evidence_ledger": [
+    {
+      "task_id": "T1",
+      "type": "image_file",
+      "source_id": "figure-1-1.jpg",
+      "source_doc": null,
+      "page": null,
+      "content": "module7_day2/images/figure-1-1.jpg",
+      "score": null
+    },
+    {
+      "task_id": "T1",
+      "type": "image_file",
+      "source_id": "table-1-1.jpg",
+      "source_doc": null,
+      "page": null,
+      "content": "module7_day2/images/table-1-1.jpg",
+      "score": null
+    },
+    {
+      "task_id": "T1",
+      "type": "image_file",
+      "source_id": "table-1-2.jpg",
+      "source_doc": null,
+      "page": null,
+      "content": "module7_day2/images/table-1-2.jpg",
+      "score": null
+    },
+    {
+      "task_id": "T1",
+      "type": "image_file",
+      "source_id": "table-2-3.jpg",
+      "source_doc": null,
+      "page": null,
+      "content": "module7_day2/images/table-2-3.jpg",
+      "score": null
+    },
+    {
+      "task_id": "T1",
+      "type": "image_file",
+      "source_id": "table-2-4.jpg",
+      "source_doc": null,
+      "page": null,
+      "content": "module7_day2/images/table-2-4.jpg",
+      "score": null
+    },
+    {
+      "task_id": "T1",
+      "type": "image_file",
+      "source_id": "table-2-5.jpg",
+      "source_doc": null,
+      "page": null,
+      "content": "module7_day2/images/table-2-5.jpg",
+      "score": null
+    }
+  ],
+  "routing_trace": [
+    {
+      "task_id": "T1",
+      "tool": "find_images",
+      "input": {
+        "task_id": "T1",
+        "goal": "Locate the chart/visual",
+        "query": "chart graph diagram figure visual",
+        "page": null,
+        "modality": "image",
+        "tool": "find_images"
+      },
+      "output": {
+        "ok": true,
+        "images": [
+          {
+            "filename": "figure-1-1.jpg",
+            "path": "module7_day2/images/figure-1-1.jpg",
+            "page": null
+          },
+          {
+            "filename": "table-1-1.jpg",
+            "path": "module7_day2/images/table-1-1.jpg",
+            "page": null
+          },
+          {
+            "filename": "table-1-2.jpg",
+            "path": "module7_day2/images/table-1-2.jpg",
+            "page": null
+          },
+          {
+            "filename": "table-2-3.jpg",
+            "path": "module7_day2/images/table-2-3.jpg",
+            "page": null
+          },
+          {
+            "filename": "table-2-4.jpg",
+            "path": "module7_day2/images/table-2-4.jpg",
+            "page": null
+          },
+          {
+            "filename": "table-2-5.jpg",
+            "path": "module7_day2/images/table-2-5.jpg",
+            "page": null
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "T2",
+      "tool": "retrieve_text",
+      "input": {
+        "task_id": "T2",
+        "goal": "Retrieve totals table evidence",
+        "query": "totals table total amount sum line items",
+        "page": null,
+        "modality": "text",
+        "tool": "retrieve_text"
+      },
+      "output": {
+        "ok": false,
+        "results": [],
+        "reason": "No records for requested page."
+      }
+    },
+    {
+      "task_id": "T1",
+      "tool": "find_images",
+      "input": {
+        "task_id": "T1",
+        "goal": "Locate the chart/visual",
+        "query": "chart graph diagram figure visual",
+        "page": null,
+        "modality": "image",
+        "tool": "find_images"
+      },
+      "output": {
+        "ok": true,
+        "images": [
+          {
+            "filename": "figure-1-1.jpg",
+            "path": "module7_day2/images/figure-1-1.jpg",
+            "page": null
+          },
+          {
+            "filename": "table-1-1.jpg",
+            "path": "module7_day2/images/table-1-1.jpg",
+            "page": null
+          },
+          {
+            "filename": "table-1-2.jpg",
+            "path": "module7_day2/images/table-1-2.jpg",
+            "page": null
+          },
+          {
+            "filename": "table-2-3.jpg",
+            "path": "module7_day2/images/table-2-3.jpg",
+            "page": null
+          },
+          {
+            "filename": "table-2-4.jpg",
+            "path": "module7_day2/images/table-2-4.jpg",
+            "page": null
+          },
+          {
+            "filename": "table-2-5.jpg",
+            "path": "module7_day2/images/table-2-5.jpg",
+            "page": null
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "T2",
+      "tool": "retrieve_text",
+      "input": {
+        "task_id": "T2",
+        "goal": "Retrieve totals table evidence",
+        "query": "totals table total amount sum line items",
+        "page": null,
+        "modality": "text",
+        "tool": "retrieve_text"
+      },
+      "output": {
+        "ok": false,
+        "results": [],
+        "reason": "No records for requested page."
+      }
+    },
+    {
+      "task_id": "T1",
+      "tool": "find_images",
+      "input": {
+        "task_id": "T1",
+        "goal": "Locate the chart/visual",
+        "query": "chart graph diagram figure visual",
+        "page": null,
+        "modality": "image",
+        "tool": "find_images"
+      },
+      "output": {
+        "ok": true,
+        "images": [
+          {
+            "filename": "figure-1-1.jpg",
+            "path": "module7_day2/images/figure-1-1.jpg",
+            "page": null
+          },
+          {
+            "filename": "table-1-1.jpg",
+            "path": "module7_day2/images/table-1-1.jpg",
+            "page": null
+          },
+          {
+            "filename": "table-1-2.jpg",
+            "path": "module7_day2/images/table-1-2.jpg",
+            "page": null
+          },
+          {
+            "filename": "table-2-3.jpg",
+            "path": "module7_day2/images/table-2-3.jpg",
+            "page": null
+          },
+          {
+            "filename": "table-2-4.jpg",
+            "path": "module7_day2/images/table-2-4.jpg",
+            "page": null
+          },
+          {
+            "filename": "table-2-5.jpg",
+            "path": "module7_day2/images/table-2-5.jpg",
+            "page": null
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "T2",
+      "tool": "retrieve_text",
+      "input": {
+        "task_id": "T2",
+        "goal": "Retrieve totals table evidence",
+        "query": "totals table total amount sum line items",
+        "page": null,
+        "modality": "text",
+        "tool": "retrieve_text"
+      },
+      "output": {
+        "ok": false,
+        "results": [],
+        "reason": "No records for requested page."
+      }
+    },
+    {
+      "task_id": "T1",
+      "tool": "find_images",
+      "input": {
+        "task_id": "T1",
+        "goal": "Locate the chart/visual",
+        "query": "chart graph diagram figure visual",
+        "page": null,
+        "modality": "image",
+        "tool": "find_images"
+      },
+      "output": {
+        "ok": true,
+        "images": [
+          {
+            "filename": "figure-1-1.jpg",
+            "path": "module7_day2/images/figure-1-1.jpg",
+            "page": null
+          },
+          {
+            "filename": "table-1-1.jpg",
+            "path": "module7_day2/images/table-1-1.jpg",
+            "page": null
+          },
+          {
+            "filename": "table-1-2.jpg",
+            "path": "module7_day2/images/table-1-2.jpg",
+            "page": null
+          },
+          {
+            "filename": "table-2-3.jpg",
+            "path": "module7_day2/images/table-2-3.jpg",
+            "page": null
+          },
+          {
+            "filename": "table-2-4.jpg",
+            "path": "module7_day2/images/table-2-4.jpg",
+            "page": null
+          },
+          {
+            "filename": "table-2-5.jpg",
+            "path": "module7_day2/images/table-2-5.jpg",
+            "page": null
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "T2",
+      "tool": "retrieve_text",
+      "input": {
+        "task_id": "T2",
+        "goal": "Retrieve totals table evidence",
+        "query": "totals table total amount sum line items",
+        "page": null,
+        "modality": "text",
+        "tool": "retrieve_text"
+      },
+      "output": {
+        "ok": false,
+        "results": [],
+        "reason": "No records for requested page."
+      }
+    }
+  ],
+  "answer": "Question: Compare the chart on page 2 with the totals table on page 1.\\n\\nEvidence:\\n- No matching text evidence retrieved.\\n- Located image files: figure-1-1.jpg, table-1-1.jpg, table-1-2.jpg, table-2-3.jpg, table-2-4.jpg, table-2-5.jpg\\n- These files have not been visually interpreted in this notebook.\\n\\nConclusion: a true chart-versus-table comparison requires visual interpretation of the chart and table evidence. Do not infer visual values from filenames."
+}
